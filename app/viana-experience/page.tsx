@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { fixedContent } from "@/content/fixed-content";
-import proposalData from "@/content/proposals/sistema-de-gestao-notarial-b.dynamic.json";
+import proposalData from "@/content/proposals/viana-experience.dynamic.json";
 import type { ProposalDynamicContent } from "@/lib/types/proposal";
 import { ProposalPage } from "@/sections/ProposalPage";
 import { AuthForm } from "@/components/access/AuthForm";
@@ -9,17 +9,17 @@ import { isAuthenticated } from "@/lib/access";
 const proposal = proposalData as ProposalDynamicContent;
 
 export const metadata: Metadata = {
-  title: "Proposta Sistema de Gestão Notarial — Plano B | Vilainfo",
+  title: "Proposta Viana Experience | Vilainfo",
   description:
-    "Plataforma de apoio ao dia a dia da serventia que convive com o sistema atual do 5º Serviço de Notas de Maceió-AL.",
+    "Site institucional e experiência do evento Viana Experience — proposta comercial Vilainfo.",
 };
 
-export default async function SistemaDeGestaoNotarialBPage() {
-  if (!(await isAuthenticated("sistema-de-gestao-notarial-b"))) {
+export default async function VianaExperiencePage() {
+  if (!(await isAuthenticated("viana-experience"))) {
     return (
       <AuthForm
-        slug="sistema-de-gestao-notarial-b"
-        title="Sistema de Gestão Notarial — Plano B"
+        slug="viana-experience"
+        title="Proposta Viana Experience"
         description="Insira a senha de acesso enviada pelo seu contato comercial para visualizar a proposta."
       />
     );
