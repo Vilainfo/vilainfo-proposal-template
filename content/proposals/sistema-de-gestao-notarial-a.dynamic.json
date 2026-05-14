@@ -1,0 +1,125 @@
+{
+  "clientName": "5º Serviço de Notas de Maceió-AL — Tabelião Fábio Kendi Takahashi",
+  "projectName": "Sistema de Gestão Notarial — Plano A",
+  "projectTagline": "Plataforma própria de gestão notarial — substituição gradual do sistema de terceiros",
+  "projectDescription": "Plataforma própria de gestão notarial para evoluir e consolidar o sistema do cartório, com o fluxo ponta a ponta da escritura de compra e venda como espinha dorsal, conclusão dos módulos parciais, implementação dos módulos pendentes (financeiro, cadastros, segurança e conformidade) e IA assistida onde já previsto, em aderência ao Provimento CNJ nº 213/2026 (Classe 3).",
+  "projectHeroImageUrl": null,
+  "previewKind": "system",
+  "previewMetrics": [
+    "10 meses de prazo",
+    "8 entregáveis (E1–E8)",
+    "12+ integrações institucionais",
+    "Classe 3 — Prov. CNJ 213/2026"
+  ],
+  "macroScope": [
+    "Núcleo de protocolo e escritura ponta a ponta (compra e venda e derivações) com IA assistida e revisão pelo escrevente",
+    "Comunicações obrigatórias e conformidade — CENSEC, e-Notariado, COAF/Siscoaf, TJ-AL, DOI, ITBI, ITCD, ISS — com filas, retentativas e tratamento manual",
+    "Conclusão de módulos parciais e implementação dos pendentes (financeiro/emolumentos/repasses, cadastros PF/PJ com LGPD, segurança Prov. 213)",
+    "Atas notariais com mídia (WhatsApp, vídeo, vistoria) e reconhecimento de firmas/autenticação de cópias com mitigação de fraude",
+    "Infraestrutura Classe 3 (homologação + produção, CI/CD, MFA, backup, criptografia) e apoio à homologação",
+    "Gestão, treinamento e interface autoguiada para a realidade da equipe enxuta da serventia"
+  ],
+  "projectGoals": [
+    "Substituir o sistema de terceiros por plataforma própria, reduzindo retrabalho em ata notarial, escrituras e reconhecimentos em volume.",
+    "Padronizar comunicações obrigatórias e dar previsibilidade financeira e de repasses a órgãos.",
+    "Ganhar eficiência operacional, rastreabilidade e continuidade do serviço mesmo na ausência de funcionários experientes, com interface autoguiada."
+  ],
+  "projectDeliverables": [],
+  "projectDifferentials": [
+    "Base normativa e técnica clara: Especificação Técnica v2.0 + aderência ao Provimento CNJ nº 213/2026 (Classe 3).",
+    "Discovery refinada já incluída — escopo definitivo validado conjuntamente no workshop de kickoff com o tabelião.",
+    "Interface autoguiada pensada para a realidade da serventia e da equipe enxuta de 6 funcionários.",
+    "IA assistida em minutas e revisão jurídica, sempre com revisão final pelo escrevente.",
+    "Garantia de 90 dias pós go-live e plano de manutenção opcional disponível na sequência."
+  ],
+  "features": [],
+  "includedItems": [
+    "Sistema sob demanda conforme Especificação Técnica v2.0",
+    "Discovery refinada e workshop de kickoff",
+    "Treinamento da equipe em sessões acordadas",    
+    "Garantia de 90 dias pós go-live"
+  ],
+  "supportType": "Suporte ao cartório em horário comercial (8×5) durante o período de garantia. ",
+  "warranty": "Garantia de 90 dias pós go-live — correção de defeitos do escopo entregue, conforme detalhado no contrato.",
+  "bonusItems": [
+    "+5 horas adicionais de desenvolvimento mensal no pós go-live (somam ao plano de suporte contratado)",
+    "Site institucional do cartório incluído",
+    "Custo zero da infraestrutura durante a homologação"
+  ],
+  "pricing": {
+    "investmentHeadline": "Plataforma própria de gestão notarial — 5º Serviço de Notas de Maceió-AL",
+    "offerLabel": "Proposta comercial — Plano A",
+    "fullPriceCaption": "Investimento total do projeto",
+    "fullPrice": "R$ 648.935,00",
+    "entryPrice": "30% na contratação: R$ 194.680,50",
+    "installments": "40% no meio do projeto + 30% no go-live, vinculados aos marcos de entrega",
+    "variableAmount": "Hospedagem em nuvem (AWS) sob responsabilidade do cartório, com dimensionamento técnico definido no workshop de kickoff.",
+    "specialCondition": "",
+    "paymentConditions": "Marcos e datas financeiras vinculados às entregas de cada milestone, formalizados na contratação. Mudanças relevantes no escopo seguem como CR (Change Request).",
+    "paymentOptions": [
+      {
+        "label": "À vista",
+        "caption": "Pagamento vinculado aos marcos de entrega",
+        "price": "R$ 648.935,00",
+        "highlight": "Melhor custo total",
+        "details": [
+          "30% na contratação: R$ 194.680,50",
+          "40% no meio do projeto: R$ 259.574,00",
+          "30% no go-live: R$ 194.680,50",
+          "Sem acréscimos sobre o valor total"
+        ]
+      },
+      {
+        "label": "A prazo",
+        "caption": "12 parcelas mensais",
+        "price": "R$ 778.722,00",
+        "highlight": "Mais flexibilidade",
+        "details": [
+          "11 parcelas de R$ 64.894,00",
+          "1 parcela de R$ 64.888,00 (ajuste da última parcela)"        
+        ]
+      }
+    ],
+    "recurringPlan": {
+      "label": "Suporte mensal — Horário comercial (8×5)",
+      "caption": "Plano opcional contratado após o término da garantia de 90 dias",
+      "monthlyPrice": "R$ 3.500,00/mês",
+      "highlight": "Contratado à parte",
+      "description": "Atendimento em horário comercial para evoluções pontuais, manutenção e atendimento a incidentes do sistema entregue.",
+      "includedItems": [
+        "5 horas de desenvolvimento por mês (padrão do plano)",
+        "Atendimento em horário comercial (8h–18h, dias úteis)",
+        "Manutenção corretiva e evoluções pontuais",
+        "Demandas além das horas inclusas seguem como CR (Change Request)"
+      ]
+    }
+  },
+  "timeline": {
+    "deliveryTime": "10 meses",
+    "startDate": "Início após assinatura do contrato e workshop de kickoff",
+    "milestones": [
+      {
+        "title": "M1 — Descoberta + bases técnicas",
+        "description": "Meses 1–2: início de E1 (esqueleto do protocolo / fluxo de escritura), E6 (ambientes, CI/CD, MFA) e E8 (kickoff e ritos de gestão). E1 e E6 finalizam em M3 e M4."
+      },
+      {
+        "title": "M2 — Cadastros, financeiro e atas",
+        "description": "Meses 3–5: E3 (financeiro/emolumentos/repasses, cadastros PF/PJ e imóveis), E4 (ata notarial — fluxo padronizado de WhatsApp e vistoria) e continuação de E1."
+      },
+      {
+        "title": "M3 — Escritura ponta a ponta + comunicações",
+        "description": "Meses 6–8: conclusão de E1 (lavratura, pós-ato, encerramento), E2 (comunicações com filas, retentativa e tratamento manual) e E5 (reconhecimento de firmas e autenticação de cópias)."
+      },
+      {
+        "title": "M4 — Endurecimento, QA e go-live",
+        "description": "Meses 9–10: conclusão de E6 (segurança Classe 3), E7 (regressão e apoio à homologação), E8 (treinamento e documentação final) e virada em produção em paralelo ao sistema atual."
+      }
+    ],
+    "observations": "Marcos e datas financeiras a combinar na contratação. Confirmação de escopo no workshop de kickoff toma como referência a Especificação Técnica v2.0; mudanças relevantes seguem como CR (Change Request)."
+  },
+  "guarantee": {
+    "guaranteeText": "3 meses (90 dias) de correção de defeitos do escopo entregue após o go-live, conforme detalhado no contrato.",
+    "extraHours": "Horas adicionais de desenvolvimento equivalentes ao período de atraso, sem custo",
+    "serviceLevel": "Comunicação transparente com gerente de projeto dedicado, rituais de planejamento, acompanhamento de marcos e checkpoints de aprovação a cada entrega."
+  }
+}

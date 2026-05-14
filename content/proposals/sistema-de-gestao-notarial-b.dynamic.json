@@ -1,0 +1,123 @@
+{
+  "clientName": "5º Serviço de Notas de Maceió-AL — Tabelião Fábio Kendi Takahashi",
+  "projectName": "Sistema de Gestão Notarial — Plano B",
+  "projectTagline": "Plataforma de apoio ao dia a dia da serventia — convive com o sistema atual",
+  "projectDescription": "Plataforma de apoio que convive com o sistema atual do cartório e ataca as cinco dores operacionais mais consumidoras de tempo da equipe: formatação de atas de WhatsApp, extração de dados em escrituras, reconhecimento de firmas em volume e previsibilidade financeira de repasses. A plataforma automatiza tarefas repetitivas com IA assistida e exporta o resultado pronto para o sistema atual quando aplicável, sem substituir nada do que está produtivo hoje.",
+  "projectHeroImageUrl": null,
+  "previewKind": "system",
+  "previewMetrics": [
+    "4 meses de prazo",
+    "7 entregáveis (E1–E7)",
+    "5 dores operacionais atacadas",
+    "Convive com o sistema atual"
+  ],
+  "macroScope": [
+    "Recepção multicanal e protocolo interno de demandas (WhatsApp, e-mail e site) — convive com o sistema atual sem substituí-lo",
+    "Ata Notarial de WhatsApp automatizada — importação da exportação, transcrição de áudios, formatação no modelo da serventia e PDF com mídia embarcada",
+    "Apoio à escritura — OCR e extração de campos em documentos, checklist dinâmico por tipo de ato (PF/PJ) e termômetro de validade das certidões, com minuta pré-preenchida para o sistema atual concluir o ato",
+    "Apoio ao reconhecimento de firmas em volume — comparação assistida por IA das assinaturas com indicação de similaridade, fila de pendências e alerta automático de ofícios da Corregedoria por CPF",
+    "Dashboard financeiro — visualização de repasses a TJ-AL, prefeitura e demais órgãos sobre exportações do sistema atual, com contas a pagar e alerta de vencimento",
+    "Infraestrutura, login com MFA e auditoria proporcionais ao papel da plataforma de apoio, treinamento e interface autoguiada para a equipe da serventia"
+  ],
+  "projectGoals": [
+    "Reduzir retrabalho manual nas cinco rotinas mais consumidoras de tempo da equipe — atas de WhatsApp, escrituras, firmas em volume e previsibilidade financeira.",
+    "Ganhar previsibilidade financeira de repasses a órgãos e contas a pagar sem reescrever o financeiro da serventia.",
+    "Manter o sistema atual produtivo e conviver com ele, sem substituição nem ruptura, com a opção de evoluir no futuro para a plataforma completa."
+  ],
+  "projectDeliverables": [],
+  "projectDifferentials": [
+    "Convive com o sistema atual — zero substituição, zero ruptura de fornecedor; o cartório segue operando como hoje enquanto ganha automação onde mais dói.",
+    "Foco nas cinco dores operacionais que mais consomem tempo manual da equipe, mapeadas em reunião de levantamento com o tabelião.",
+    "IA assistida em transcrição, OCR, extração de campos e comparação de assinaturas, sempre com revisão final pelo escrevente.",
+    "Discovery refinada já incluída — escopo definitivo validado conjuntamente no workshop de kickoff com base na Especificação Técnica v2.0.",
+    "Compatível com a evolução futura para o Plano A, caso o cartório decida substituir o sistema atual mais adiante."
+  ],
+  "features": [],
+  "includedItems": [
+    "Plataforma de apoio sob demanda conforme escopo do Plano B (Especificação Técnica v2.0)",
+    "Discovery refinada e workshop de kickoff",
+    "Treinamento da equipe em sessões acordadas",
+    "Garantia de 90 dias pós go-live"
+  ],
+  "supportType": "Suporte ao cartório em horário comercial (8×5) durante o período de garantia.",
+  "warranty": "Garantia de 90 dias pós go-live — correção de defeitos do escopo entregue, conforme detalhado no contrato.",
+  "bonusItems": [
+    "+5 horas adicionais de desenvolvimento mensal no pós go-live (somam ao plano de suporte contratado)",
+    "Site institucional do cartório incluído",
+    "Custo zero da infraestrutura durante a homologação"
+  ],
+  "pricing": {
+    "investmentHeadline": "Plataforma de apoio à gestão notarial — 5º Serviço de Notas de Maceió-AL",
+    "offerLabel": "Proposta comercial — Plano B",
+    "fullPriceCaption": "Investimento total do projeto",
+    "fullPrice": "R$ 150.480,00",
+    "entryPrice": "30% na contratação: R$ 45.144,00",
+    "installments": "40% no meio do projeto + 30% no go-live, vinculados aos marcos de entrega",
+    "variableAmount": "Hospedagem em servidor próprio já contratado pelo cartório ou em nuvem AWS, conforme decisão técnica no workshop de kickoff, sob responsabilidade financeira do cartório.",
+    "specialCondition": "",
+    "paymentConditions": "Marcos e datas financeiras vinculados às entregas de cada milestone, formalizados na contratação. Mudanças relevantes no escopo seguem como CR (Change Request).",
+    "paymentOptions": [
+      {
+        "label": "À vista",
+        "caption": "Pagamento vinculado aos marcos de entrega",
+        "price": "R$ 150.480,00",
+        "highlight": "Melhor custo total",
+        "details": [
+          "30% na contratação: R$ 45.144,00",
+          "70% ao longo dos marcos: R$ 105.336,00",
+          "Sem acréscimos sobre o valor total"
+        ]
+      },
+      {
+        "label": "A prazo",
+        "caption": "12 parcelas mensais",
+        "price": "R$ 180.576,00",
+        "highlight": "Mais flexibilidade",
+        "details": [
+          "12 parcelas iguais de R$ 15.048,00"        
+        ]
+      }
+    ],
+    "recurringPlan": {
+      "label": "Suporte mensal — Horário comercial (8×5)",
+      "caption": "Plano opcional contratado após o término da garantia de 90 dias",
+      "monthlyPrice": "R$ 2.000,00/mês",
+      "highlight": "Contratado à parte",
+      "description": "Atendimento em horário comercial para evoluções pontuais, manutenção e atendimento a incidentes da plataforma entregue.",
+      "includedItems": [
+        "10 horas de desenvolvimento por mês (padrão do plano)",
+        "Atendimento em horário comercial (8h–18h, dias úteis)",
+        "Manutenção corretiva e evoluções pontuais",
+        "Demandas além das horas inclusas seguem como CR (Change Request)"
+      ]
+    }
+  },
+  "timeline": {
+    "deliveryTime": "4 meses",
+    "startDate": "Início após assinatura do contrato e workshop de kickoff",
+    "milestones": [
+      {
+        "title": "M1 — Núcleo + bases técnicas",
+        "description": "Mês 1: E1 (recepção multicanal e protocolo interno), início de E6 (ambientes, login, MFA) e E7 (kickoff e ritos de gestão). E6 finaliza em M4."
+      },
+      {
+        "title": "M2 — Ata de WhatsApp automatizada",
+        "description": "Mês 2: E2 completo — importação da exportação do WhatsApp, transcrição de áudios, formatação no modelo da serventia e PDF com mídia embarcada. Entrega da dor #1."
+      },
+      {
+        "title": "M3 — Escritura + reconhecimento de firmas",
+        "description": "Mês 3: E3 (recepção, OCR, checklist e termômetro de certidões) e E4 (digitalização do malote, comparação assistida por IA e alerta automático de ofícios da Corregedoria)."
+      },
+      {
+        "title": "M4 — Dashboard, QA e go-live",
+        "description": "Mês 4: E5 (visualização de repasses e contas a pagar), conclusão de E6, E7 (regressão, treinamento e virada em produção em paralelo ao sistema atual)."
+      }
+    ],
+    "observations": "Marcos e datas financeiras a combinar na contratação. Confirmação de escopo no workshop de kickoff toma como referência a Especificação Técnica v2.0; mudanças relevantes seguem como CR (Change Request)."
+  },
+  "guarantee": {
+    "guaranteeText": "3 meses (90 dias) de correção de defeitos do escopo entregue após o go-live, conforme detalhado no contrato.",
+    "extraHours": "Horas adicionais de desenvolvimento equivalentes ao período de atraso, sem custo",
+    "serviceLevel": "Comunicação transparente com gerente de projeto dedicado, rituais de planejamento, acompanhamento de marcos e checkpoints de aprovação a cada entrega."
+  }
+}

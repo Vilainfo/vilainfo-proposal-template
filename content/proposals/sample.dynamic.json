@@ -1,0 +1,100 @@
+{
+  "clientName": "Cliente Viana Experience",
+  "projectName": "Viana Experience",
+  "projectTagline": "Proposta comercial — site institucional e experiência do evento",
+  "projectDescription": "Solução web focada em divulgação do evento, organização de atrações e apoio ao visitante com mapa e informações em um só lugar.",
+  "projectHeroImageUrl": null,
+  "previewKind": "site",
+  "macroScope": [
+    "Presença digital do evento com páginas institucionais e branding consistente",
+    "Organização de atrações, horários e roteiros para o visitante",
+    "Mapa interativo com pontos turísticos",
+    "FAQ para reduzir atrito de suporte e SEO para descoberta orgânica"
+  ],
+  "projectGoals": [
+    "Fortalecer a presença digital do evento com páginas claras e navegação objetiva.",
+    "Centralizar atrações, horários e roteiros para reduzir dúvidas e retrabalho da equipe.",
+    "Melhorar descoberta em buscas orgânicas com boas práticas de SEO."
+  ],
+  "projectDeliverables": [
+    "Site publicado e responsivo, pronto para campanhas e atualização de conteúdos.",
+    "Seções funcionais conforme escopo acordado (institucional, atrações, mapa, FAQ).",
+    "Treinamento breve para a equipe operar atualizações rotineiras."
+  ],
+  "projectDifferentials": [
+    "Arquitetura de informação pensada para visitantes e organizadores.",
+    "Performance e SEO como parte do escopo, não como opcional.",
+    "Fluxo de publicação com revisão e aprovação antes do go-live."
+  ],
+  "features": [
+    {
+      "id": "institucional",
+      "title": "Página institucional do evento",
+      "description": "Landing e páginas internas com narrativa, branding e CTAs para conversão."
+    },
+    {
+      "id": "atracoes",
+      "title": "Lista de atrações, horários e roteiros",
+      "description": "Organização das experiências do evento em formato escaneável e atualizável."
+    },
+    {
+      "id": "mapa",
+      "title": "Mapa com pontos turísticos marcados",
+      "description": "Visualização geográfica para orientar visitantes e destacar pontos de interesse."
+    },
+    {
+      "id": "faq",
+      "title": "FAQ",
+      "description": "Respostas às dúvidas mais frequentes para suporte em escala."
+    },
+    {
+      "id": "seo",
+      "title": "Otimização de busca (SEO)",
+      "description": "Estrutura semântica, metadados e boas práticas para indexação."
+    }
+  ],
+  "includedItems": [
+    "SITE sob demanda",
+    "Treinamento para equipe",
+    "Suporte via WhatsApp",
+    "Garantia até 90 dias"
+  ],
+  "supportType": "Suporte via WhatsApp no período acordado",
+  "warranty": "Garantia até 90 dias conforme condições da proposta",
+  "bonusItems": ["Bônus 1: 10h de consultoria"],
+  "pricing": {
+    "investmentHeadline": "Desenvolvimento do Site Viana Experience",
+    "offerLabel": "Proposta única",
+    "fullPriceCaption": "Valor total pelos serviços contratados",
+    "fullPrice": "R$ 13.475,00",
+    "entryPrice": "R$ 2.500 de entrada",
+    "installments": "1x de R$ 2.500",
+    "variableAmount": "Valor complementar (variável): até R$ 2.500,00 adicionais, condicionado à disponibilidade orçamentária ao final do projeto",
+    "specialCondition": "Mas, somente se fecharmos até 23/04, o preço para o projeto completo segue as condições desta página.",
+    "paymentConditions": "Condições detalhadas no contrato e na fatura correspondente."
+  },
+  "timeline": {
+    "deliveryTime": "15 dias úteis",
+    "startDate": "24/04/2026",
+    "milestones": [
+      {
+        "title": "Kick-off e alinhamento de conteúdos",
+        "description": "Definição de textos, materiais visuais e prioridades de entrega."
+      },
+      {
+        "title": "Implementação das páginas e integrações previstas",
+        "description": "Desenvolvimento, revisões intermediárias e ajustes."
+      },
+      {
+        "title": "Homologação e publicação",
+        "description": "Testes, aprovação final e go-live monitorado."
+      }
+    ],
+    "observations": "Os entregáveis serão listados em um documento de proposta em Word."
+  },
+  "guarantee": {
+    "guaranteeText": "Se não entregamos o projeto dentro do prazo estipulado, você ganha mais 10h de desenvolvimento sem custo nenhum.",
+    "extraHours": "10h adicionais em caso de descumprimento de prazo acordado",
+    "serviceLevel": "Comunicação transparente por grupo dedicado e checkpoints de aprovação."
+  }
+}
