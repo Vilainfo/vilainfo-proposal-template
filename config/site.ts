@@ -8,8 +8,7 @@ export const siteConfig = {
   url: "https://vilainfo.com.br",
   contactUrl: "https://vilainfo.com.br/contato",
   social: {
-    instagram: "https://www.instagram.com/vilainfo",
-    linkedin: "https://www.linkedin.com/company/vilainfo",
+    instagram: "vilainfo.tech",
     /** Ajuste conforme canais oficiais */
     x: "https://twitter.com/vilainfo",
   },

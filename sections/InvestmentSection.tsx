@@ -4,6 +4,7 @@ import type {
   ProposalPricingOption,
   ProposalRecurringPlan,
 } from "@/lib/types/proposal";
+import { RevealedPricingStack } from "@/components/pricing/RevealedPricingStack";
 import { Container } from "@/components/layout/Container";
 import { FadeIn } from "@/components/motion/FadeIn";
 import { GlassPanel } from "@/components/sections/GlassPanel";
@@ -90,9 +91,25 @@ function PaymentOptionCard({ option, emphasized }: { option: ProposalPricingOpti
         {option.caption ? (
           <p className="text-sm text-[var(--muted)]">{option.caption}</p>
         ) : null}
-        <p className="mt-2 break-words font-display text-3xl font-semibold tracking-tight text-[var(--foreground)] sm:text-4xl">
+        {option.compareAtPrice ? (
+          <p className="mt-2 break-words font-display text-xl font-medium tracking-tight text-[var(--muted)] line-through decoration-[var(--muted-strong)]/70 sm:text-2xl">
+            {option.compareAtPrice}
+          </p>
+        ) : null}
+        <p
+          className={`break-words font-display font-semibold tracking-tight text-[var(--foreground)] ${
+            option.compareAtPrice
+              ? "mt-1 text-3xl sm:text-4xl"
+              : "mt-2 text-3xl sm:text-4xl"
+          } ${emphasized && option.compareAtPrice ? "text-cyan-50" : ""}`}
+        >
           {option.price}
         </p>
+        {option.compareAtPrice ? (
+          <p className="mt-1 text-xs font-semibold uppercase tracking-[0.14em] text-cyan-200/90">
+            Valor promocional
+          </p>
+        ) : null}
       </div>
 
       {option.details && option.details.length > 0 ? (
@@ -116,6 +133,8 @@ function PaymentOptionCard({ option, emphasized }: { option: ProposalPricingOpti
 export function InvestmentSection({ proposal }: Props) {
   const { pricing } = proposal;
   const hasPaymentOptions = !!pricing.paymentOptions && pricing.paymentOptions.length >= 2;
+  const useRevealedPricing =
+    hasPaymentOptions && !!pricing.paymentOptions?.[0]?.compareAtPrice;
 
   return (
     <section className="py-0">
@@ -135,52 +154,56 @@ export function InvestmentSection({ proposal }: Props) {
         </FadeIn>
 
         {hasPaymentOptions && pricing.paymentOptions ? (
-          <div className="mx-auto mt-10 flex max-w-5xl flex-col gap-5">
-            <FadeIn>
-              <div className="flex flex-col items-center gap-2 text-center">
-                <span className="inline-flex rounded-full border border-white/10 bg-black/35 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-cyan-100/85">
-                  {pricing.offerLabel}
-                </span>
-                <p className="text-sm text-[var(--muted)]">
-                  Escolha a forma de pagamento que melhor se encaixa no seu fluxo financeiro.
-                </p>
-              </div>
-            </FadeIn>
-
-            <FadeIn delay={0.06}>
-              <div className="grid gap-5 lg:grid-cols-2">
-                {pricing.paymentOptions.map((opt, i) => (
-                  <PaymentOptionCard key={i} option={opt} emphasized={i === 0} />
-                ))}
-              </div>
-            </FadeIn>
-
-            {pricing.recurringPlan ? (
-              <FadeIn delay={0.1}>
-                <RecurringPlanCard plan={pricing.recurringPlan} />
-              </FadeIn>
-            ) : null}
-
-            <FadeIn delay={0.12}>
-              <GlassPanel className="p-6 sm:p-8">
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--muted-strong)]">
-                  Condições de pagamento
-                </p>
-                <p className="mt-3 text-base leading-relaxed text-[var(--muted)]">
-                  {pricing.paymentConditions}
-                </p>
-                <div className="mt-6 rounded-xl border border-white/10 bg-white/[0.03] p-4">
-                  <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[var(--muted-strong)]">
-                    Formalização
-                  </p>
-                  <p className="mt-2 text-sm leading-relaxed text-[var(--muted)]">
-                    Valores e condições resumem a proposta; detalhes ficam no contrato e nos
-                    documentos de cobrança.
+          useRevealedPricing ? (
+            <RevealedPricingStack pricing={pricing} />
+          ) : (
+            <div className="mx-auto mt-10 flex max-w-5xl flex-col gap-5">
+              <FadeIn>
+                <div className="flex flex-col items-center gap-2 text-center">
+                  <span className="inline-flex rounded-full border border-white/10 bg-black/35 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-cyan-100/85">
+                    {pricing.offerLabel}
+                  </span>
+                  <p className="text-sm text-[var(--muted)]">
+                    Escolha a forma de pagamento que melhor se encaixa no seu fluxo financeiro.
                   </p>
                 </div>
-              </GlassPanel>
-            </FadeIn>
-          </div>
+              </FadeIn>
+
+              <FadeIn delay={0.06}>
+                <div className="grid gap-5 lg:grid-cols-2">
+                  {pricing.paymentOptions.map((opt, i) => (
+                    <PaymentOptionCard key={i} option={opt} emphasized={i === 0} />
+                  ))}
+                </div>
+              </FadeIn>
+
+              {pricing.recurringPlan ? (
+                <FadeIn delay={0.1}>
+                  <RecurringPlanCard plan={pricing.recurringPlan} />
+                </FadeIn>
+              ) : null}
+
+              <FadeIn delay={0.12}>
+                <GlassPanel className="p-6 sm:p-8">
+                  <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--muted-strong)]">
+                    Condições de pagamento
+                  </p>
+                  <p className="mt-3 text-base leading-relaxed text-[var(--muted)]">
+                    {pricing.paymentConditions}
+                  </p>
+                  <div className="mt-6 rounded-xl border border-white/10 bg-white/[0.03] p-4">
+                    <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[var(--muted-strong)]">
+                      Formalização
+                    </p>
+                    <p className="mt-2 text-sm leading-relaxed text-[var(--muted)]">
+                      Valores e condições resumem a proposta; detalhes ficam no contrato e nos
+                      documentos de cobrança.
+                    </p>
+                  </div>
+                </GlassPanel>
+              </FadeIn>
+            </div>
+          )
         ) : (
           <div className="mx-auto mt-10 flex max-w-3xl flex-col gap-5">
             <FadeIn>

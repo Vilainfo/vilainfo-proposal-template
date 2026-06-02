@@ -1,0 +1,124 @@
+{
+  "clientName": "Imobiliária William Silva",
+  "projectName": "Plataforma integrada de gestão imobiliária",
+  "projectTagline": "Software personalizado para integrar e automatizar a jornada operacional da imobiliária",
+  "projectDescription": "Plataforma própria para centralizar a gestão de leads, a geração automatizada de contratos de locação e venda, vistorias de entrada e saída, emissão e acompanhamento de boletos e demonstrativos financeiros mensais para proprietários — reduzindo retrabalho, erros e atrasos da operação atual com planilhas e sistemas fragmentados.",
+  "projectHeroImageUrl": null,
+  "previewKind": "system",
+  "previewMetrics": [
+    "6 meses de prazo",
+    "8 entregáveis (E1–E8)",
+    "Equipe enxuta (~6 usuários internos)",
+    "Integrações: assinatura eletrônica, boletos e notificações"
+  ],
+  "macroScope": [
+    "Gestão de leads e funil comercial — cadastro, etapas, responsável e visão por corretor para gestão e equipe administrativa",
+    "Geração automatizada de contratos de locação e venda, com variações para fiador, seguro-fiança e capitalização, exportados em PDF prontos para assinatura",
+    "Integração com plataforma de assinatura eletrônica já utilizada ou equivalente contratado, com rastreio de status",
+    "Módulo de vistorias de entrada e saída — checklist, fotos e vínculo ao imóvel/contrato, utilizável em campo no navegador mobile",
+    "Emissão de boletos e cobrança — cadastro de locações ativas, geração via gateway ou instituição financeira acordada, registro de pagamentos e envio por WhatsApp ou e-mail",
+    "Demonstrativos financeiros mensais automatizados para proprietários (receitas, despesas, repasses), padronizados e exportáveis",
+    "Infraestrutura, segurança e LGPD — ambientes de homologação e produção, controle de acesso por perfil, backup e criptografia",
+    "Qualidade, gestão e treinamento — testes dos fluxos críticos, documentação de uso, treinamento da equipe e acompanhamento de marcos"
+  ],
+  "projectGoals": [
+    "Otimizar e automatizar a jornada do cliente — da captura do lead à conversão, contrato, vistoria, cobrança e prestação de contas ao proprietário — em um único fluxo confiável.",
+    "Ganhar eficiência operacional e controle sobre os dados dos clientes, sem compartilhamento indesejado com terceiros.",
+    "Substituir o acúmulo de planilhas e ferramentas soltas por previsibilidade na rotina administrativa, mantendo compatibilidade com a realidade de uma imobiliária de porte modesto."
+  ],
+  "projectDeliverables": [],
+  "projectDifferentials": [
+    "Escopo alinhado ao levantamento comercial de 26/05/2026 — jornada operacional mapeada com William Silva e equipe.",
+    "Plataforma pensada para equipe enxuta (6 pessoas), com baixa exigência de escala e interface objetiva para corretores e administrativo.",
+    "Controle de dados e privacidade — tratamento alinhado à LGPD, sem dependência de compartilhamento com terceiros além do acordado.",
+    "Garantia de 3 meses pós go-live e plano de manutenção opcional disponível na sequência."
+  ],
+  "features": [],
+  "includedItems": [
+    "Plataforma sob demanda conforme escopo acordado (E1–E8)",
+    "Workshop de kickoff e validação de escopo definitivo",
+    "Treinamento da equipe em sessões acordadas",
+    "Garantia de 3 meses pós go-live"
+  ],
+  "supportType": "Correção de defeitos do escopo entregue durante o período de garantia de 3 meses pós go-live, em horário comercial (8×5).",
+  "warranty": "Garantia de 3 meses pós go-live — correção de defeitos do escopo entregue, conforme detalhado no contrato.",
+  "bonusItems": [
+    "+5 horas adicionais de desenvolvimento mensal no pós go-live (somam ao plano de suporte contratado)",
+    "Site institucional da imobiliária incluído",
+    "Custo zero da infraestrutura durante a homologação"
+  ],
+  "pricing": {
+    "investmentHeadline": "Plataforma integrada de gestão imobiliária — Imobiliária William Silva",
+    "offerLabel": "Proposta comercial",
+    "fullPriceCaption": "Investimento total do projeto",
+    "fullPrice": "R$ 65.522,00",
+    "entryPrice": "30% na contratação: R$ 19.657,00",
+    "installments": "70% vinculados às entregas dos marcos M1–M4, conforme cronograma acordado",
+    "variableAmount": "A hospedagem em nuvem (AWS) não está inclusa no valor do projeto. O custo de infraestrutura é de responsabilidade do contratante — faixa indicativa de R$ 350 a R$ 1.100/mês após estabilização, conforme volume de arquivos e instância escolhida.",
+    "specialCondition": "",
+    "paymentConditions": "Marcos e datas financeiras vinculados às entregas de cada milestone, formalizados na contratação. Modelos jurídicos; credenciais e homologação de APIs (banco, assinatura, WhatsApp) fornecidas ou contratadas pelo cliente no prazo acordado. Mudanças relevantes no escopo seguem como CR (Change Request).",
+    "paymentOptions": [
+      {
+        "label": "Pagamento por marcos",
+        "caption": "Sem acréscimo sobre o investimento",
+        "compareAtPrice": "R$ 85.178,60",
+        "price": "R$ 65.522,00",
+        "highlight": "Melhor custo total",
+        "details": [
+          "30% na assinatura/contratação: R$ 19.657,00",
+          "70% vinculados às entregas dos marcos M1–M4: R$ 45.866,00",
+          "Sem acréscimos sobre o valor total"
+        ]
+      },
+      {
+        "label": "12 prestações mensais",
+        "price": "R$ 78.627,00",
+        "highlight": "Mais flexibilidade",
+        "details": [
+          "11 parcelas de R$ 6.552,00",
+          "1 parcela de R$ 6.555,00 (ajuste da última parcela)"
+        ]
+      }
+    ],
+    "recurringPlan": {
+      "label": "Manutenção mensal — Horário comercial (8×5)",
+      "caption": "Plano opcional contratado após o término da garantia de 3 meses",
+      "monthlyPrice": "R$ 500,00/mês",
+      "highlight": "Contratado à parte",
+      "description": "Pacote mensal de desenvolvimento pontual e atendimento a incidentes do sistema entregue, em horário comercial.",
+      "includedItems": [
+        "Desenvolvimento pontual e pequenas melhorias",
+        "Atendimento a incidentes em horário comercial (8h–18h, dias úteis)",
+        "Demandas que ultrapassem o pacote ou estejam fora do escopo do plano seguem como CR (Change Request)"
+      ]
+    }
+  },
+  "timeline": {
+    "deliveryTime": "6 meses",
+    "startDate": "Início após assinatura do contrato e workshop de kickoff",
+    "milestones": [
+      {
+        "title": "M1 — Descoberta, UX e CRM",
+        "description": "Meses 1–2: kickoff e ritos de gestão (E8), ambientes iniciais (E7 parcial) e leads com funil operacional (E1)."
+      },
+      {
+        "title": "M2 — Contratos e assinatura",
+        "description": "Meses 3–4: modelos de locação/venda e garantias (E2), integração com assinatura eletrônica (E3) e continuação de E7."
+      },
+      {
+        "title": "M3 — Vistorias e cobrança",
+        "description": "Mês 5: vistorias de entrada e saída (E4), boletos, registro de pagamentos e envio por WhatsApp/e-mail (E5)."
+      },
+      {
+        "title": "M4 — Demonstrativos, QA e go-live",
+        "description": "Mês 6: demonstrativos mensais (E6), produção, backup e perfis (E7), testes, treinamento, documentação e entrada em operação (E8)."
+      }
+    ],
+    "observations": "Pagamento vinculado a marcos (70%) alinhado às entregas acima. Confirmação de escopo no workshop de kickoff; ajustes pequenos cabem na margem acordada, mudanças relevantes seguem como CR (Change Request)."
+  },
+  "guarantee": {
+    "guaranteeText": "3 meses de correção de defeitos do escopo entregue após o go-live, conforme detalhado no contrato.",
+    "extraHours": "Horas adicionais de desenvolvimento equivalentes ao período de atraso, sem custo",
+    "serviceLevel": "Comunicação transparente com gerente de projeto dedicado, rituais de planejamento, acompanhamento de marcos e checkpoints de aprovação a cada entrega."
+  }
+}

@@ -38,10 +38,6 @@ export function FooterSection({ fixed }: Props) {
                 <span className="text-[var(--muted-strong)]">Instagram:</span>{" "}
                 <span className="text-[var(--foreground)]">{siteConfig.social.instagram}</span>
               </p>
-              <p>
-                <span className="text-[var(--muted-strong)]">LinkedIn:</span>{" "}
-                <span className="text-[var(--foreground)]">{siteConfig.social.linkedin}</span>
-              </p>
             </div>
 
             <p className="max-w-xl text-xs leading-relaxed text-[var(--muted)]">

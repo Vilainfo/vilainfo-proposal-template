@@ -15,12 +15,14 @@ export type ProtectedSlug =
   | "viana-experience"
   | "sistema-de-gestao-notarial-a"
   | "sistema-de-gestao-notarial-b"
+  | "william-silva-imobiliaria"
   | "todos-orcamentos-vi";
 
 export const accessCredentials: Record<ProtectedSlug, string> = {
   "viana-experience": "KXpF_lyVF706FYq1U6kAd7iT",
   "sistema-de-gestao-notarial-a": "Cj-gxOsRFvNxjTxb8Bca56gW",
   "sistema-de-gestao-notarial-b": "FlxPlQJw6SnATuqwcYHE2JdR",
+  "william-silva-imobiliaria": "u0qWkIEWRBpkovjVDDoZXYtz",
   "todos-orcamentos-vi": "5EgyntnwsA7RzY-Jd6iNeBMD",
 };
 
@@ -51,6 +53,11 @@ export const proposalListings: ProposalListing[] = [
     slug: "sistema-de-gestao-notarial-b",
     name: "Sistema de Gestão Notarial — Plano B",
     description: "Plataforma de apoio que convive com o sistema atual",
+  },
+  {
+    slug: "william-silva-imobiliaria",
+    name: "Plataforma integrada de gestão imobiliária",
+    description: "Gestão de leads, contratos, vistorias, cobrança e demonstrativos — Imobiliária William Silva",
   },
 ];
 

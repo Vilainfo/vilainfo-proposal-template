@@ -22,6 +22,8 @@ export type ProposalPricingOption = {
   caption?: string;
   /** Valor principal da opção (string formatada, ex.: "R$ 589.941,00") */
   price: string;
+  /** Valor de referência tachado acima do preço promocional (ex.: "R$ 85.178,60") */
+  compareAtPrice?: string;
   /** Bullets com detalhes da opção (entrada, parcelas, descontos, etc.) */
   details?: string[];
   /** Selo de destaque opcional (ex.: "Melhor custo total", "Mais flexibilidade") */
