@@ -51,8 +51,8 @@
     "investmentHeadline": "Plataforma integrada de gestão imobiliária — Imobiliária William Silva",
     "offerLabel": "Proposta comercial",
     "fullPriceCaption": "Investimento total do projeto",
-    "fullPrice": "R$ 65.522,00",
-    "entryPrice": "30% na contratação: R$ 19.657,00",
+    "fullPrice": "R$ 47.750,00",
+    "entryPrice": "30% na contratação: R$ 14.325,00",
     "installments": "70% vinculados às entregas dos marcos M1–M4, conforme cronograma acordado",
     "variableAmount": "A hospedagem em nuvem (AWS) não está inclusa no valor do projeto. O custo de infraestrutura é de responsabilidade do contratante — faixa indicativa de R$ 350 a R$ 1.100/mês após estabilização, conforme volume de arquivos e instância escolhida.",
     "specialCondition": "",
@@ -61,22 +61,21 @@
       {
         "label": "Pagamento por marcos",
         "caption": "Sem acréscimo sobre o investimento",
-        "compareAtPrice": "R$ 85.178,60",
-        "price": "R$ 65.522,00",
+        "compareAtPrice": "R$ 65.522,00",
+        "price": "R$ 47.750,00",
         "highlight": "Melhor custo total",
         "details": [
-          "30% na assinatura/contratação: R$ 19.657,00",
-          "70% vinculados às entregas dos marcos M1–M4: R$ 45.866,00",
+          "30% na assinatura/contratação: R$ 14.325,00",
+          "70% vinculados às entregas dos marcos M1–M4: R$ 33.425,00",
           "Sem acréscimos sobre o valor total"
         ]
       },
       {
         "label": "12 prestações mensais",
-        "price": "R$ 78.627,00",
+        "price": "R$ 57.300,00",
         "highlight": "Mais flexibilidade",
         "details": [
-          "11 parcelas de R$ 6.552,00",
-          "1 parcela de R$ 6.555,00 (ajuste da última parcela)"
+          "12 parcelas de R$ 4.775,00"
         ]
       }
     ],
