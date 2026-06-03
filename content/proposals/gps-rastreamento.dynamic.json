@@ -50,8 +50,8 @@
     "investmentHeadline": "Plataforma de gestão administrativa — GPS Rastreamento",
     "offerLabel": "Proposta comercial",
     "fullPriceCaption": "Investimento total do projeto",
-    "fullPrice": "R$ 56.521,00",
-    "entryPrice": "30% na contratação: R$ 18.652,00",
+    "fullPrice": "R$ 47.721,00",
+    "entryPrice": "30% na contratação: R$ 14.316,30",
     "installments": "70% vinculados às entregas dos marcos M1–M4, conforme cronograma acordado",
     "variableAmount": "A hospedagem em nuvem (AWS) não está inclusa no valor do projeto. O custo de infraestrutura é de responsabilidade do contratante — faixa indicativa de R$ 250 a R$ 750/mês após estabilização, conforme volume de dados, backups e instância escolhida.",
     "specialCondition": "",
@@ -61,21 +61,20 @@
         "label": "Pagamento por marcos",
         "caption": "Sem acréscimo sobre o investimento",
         "compareAtPrice": "R$ 62.173,00",
-        "price": "R$ 56.521,00",
+        "price": "R$ 47.721,00",
         "highlight": "Melhor custo total",
         "details": [
-          "30% na assinatura/contratação: R$ 18.652,00",
-          "70% vinculados às entregas dos marcos M1–M4: R$ 43.521,00",
+          "30% na assinatura/contratação: R$ 14.316,30",
+          "70% vinculados às entregas dos marcos M1–M4: R$ 33.404,70",
           "Sem acréscimos sobre o valor total"
         ]
       },
       {
         "label": "12 prestações mensais",
-        "price": "R$ 74.608,00",
+        "price": "R$ 57.265,20",
         "highlight": "Mais flexibilidade",
         "details": [
-          "11 parcelas de R$ 6.217,00",
-          "1 parcela de R$ 6.221,00 (ajuste da última parcela)"
+          "12 parcelas de R$ 4.772,10"
         ]
       }
     ],
