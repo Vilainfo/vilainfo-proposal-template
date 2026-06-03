@@ -16,6 +16,7 @@ export type ProtectedSlug =
   | "sistema-de-gestao-notarial-a"
   | "sistema-de-gestao-notarial-b"
   | "william-silva-imobiliaria"
+  | "gps-rastreamento"
   | "todos-orcamentos-vi";
 
 export const accessCredentials: Record<ProtectedSlug, string> = {
@@ -23,6 +24,7 @@ export const accessCredentials: Record<ProtectedSlug, string> = {
   "sistema-de-gestao-notarial-a": "Cj-gxOsRFvNxjTxb8Bca56gW",
   "sistema-de-gestao-notarial-b": "FlxPlQJw6SnATuqwcYHE2JdR",
   "william-silva-imobiliaria": "u0qWkIEWRBpkovjVDDoZXYtz",
+  "gps-rastreamento": "9p-_7_DU_emvF0CWnrGv19_m",
   "todos-orcamentos-vi": "5EgyntnwsA7RzY-Jd6iNeBMD",
 };
 
@@ -58,6 +60,11 @@ export const proposalListings: ProposalListing[] = [
     slug: "william-silva-imobiliaria",
     name: "Plataforma integrada de gestão imobiliária",
     description: "Gestão de leads, contratos, vistorias, cobrança e demonstrativos — Imobiliária William Silva",
+  },
+  {
+    slug: "gps-rastreamento",
+    name: "Plataforma de gestão administrativa",
+    description: "Finanças, CRM B2B, contratos e estoque de rastreadores/chips — GPS Rastreamento",
   },
 ];
 

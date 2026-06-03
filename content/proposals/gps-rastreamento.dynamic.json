@@ -1,0 +1,127 @@
+{
+  "clientName": "GPS Rastreamento — Douglas Spessoto",
+  "projectName": "Plataforma de gestão administrativa",
+  "projectTagline": "Sistema personalizado para finanças, CRM, contratos e estoque de equipamentos",
+  "projectDescription": "Plataforma sob medida para centralizar a gestão financeira (contas a pagar e a receber, relatórios, dashboard e DRE), o cadastro de clientes B2B com CRM, a gestão de contratos (emissão, renovação e devolução assinada) e o controle de estoque de rastreadores e chips — substituindo planilhas Excel por um sistema único, seguro e acessível de qualquer lugar, para a equipe enxuta da GPS Rastreamento.",
+  "projectHeroImageUrl": null,
+  "previewKind": "system",
+  "previewMetrics": [
+    "6 meses de prazo",
+    "7 entregáveis (E1–E7)",
+    "2 usuários internos",
+    "Acesso em computador, celular e tablet"
+  ],
+  "macroScope": [
+    "Gestão financeira — contas a pagar e a receber, categorização, conciliação básica, relatórios gerenciais, dashboard e DRE conforme estrutura acordada no kickoff",
+    "Cadastro de clientes e CRM B2B — empresas de logística e frotistas, histórico de relacionamento e funil comercial simples (etapas, responsável, observações)",
+    "Gestão de contratos — emissão para assinatura do cliente, controle de renovação, registro de devolução assinada e status (rascunho, enviado, assinado, vigente, encerrado)",
+    "Estoque de equipamentos — cadastro de rastreadores e chips por operadora, vinculação chip ↔ rastreador antes da instalação, movimentação de saída/instalação e saldo disponível",
+    "Acesso, perfis e responsividade — autenticação segura para 2 usuários, perfis de acesso (financeiro vs. gestão geral) e interface responsiva para uso remoto",
+    "Infraestrutura, segurança e LGPD — ambientes de homologação e produção na nuvem, backup, criptografia em trânsito e tratamento de dados pessoais conforme LGPD",
+    "Qualidade, gestão e treinamento — testes dos fluxos críticos, documentação de uso, treinamento da equipe e acompanhamento de marcos"
+  ],
+  "projectGoals": [
+    "Sair do controle manual em Excel para um sistema único e seguro, acessível de casa ou em viagem, sem depender de um único computador.",
+    "Organizar a gestão financeira, obter visão comercial dos clientes (funil e relacionamento) e rastrear contratos e equipamentos (rastreador + chip).",
+    "Manter a operação de rastreamento veicular no software Multiportal RST já utilizado, profissionalizando apenas a gestão administrativa com solução personalizada."
+  ],
+  "projectDeliverables": [],
+  "projectDifferentials": [
+    "Escopo alinhado à reunião comercial de 01/06/2026 — necessidades mapeadas com Douglas Spessoto.",
+    "Solução pensada para equipe enxuta (2 pessoas), com baixa exigência de escala e interface objetiva para proprietário e sócia no financeiro.",
+    "Experiência Vilainfo em módulos administrativos, CRM e gestão financeira — sem produto de prateleira genérico.",
+    "Garantia de 3 meses pós go-live e plano de manutenção opcional disponível na sequência."
+  ],
+  "features": [],
+  "includedItems": [
+    "Plataforma sob demanda conforme escopo acordado (E1–E7)",
+    "Workshop de kickoff e validação de escopo definitivo",
+    "Treinamento da equipe em sessões acordadas",
+    "Garantia de 3 meses pós go-live"
+  ],
+  "supportType": "Correção de defeitos do escopo entregue durante o período de garantia de 3 meses pós go-live, em horário comercial (8×5).",
+  "warranty": "Garantia de 3 meses pós go-live — correção de defeitos do escopo entregue, conforme detalhado no contrato.",
+  "bonusItems": [
+    "+5 horas adicionais de desenvolvimento mensal no pós go-live (somam ao plano de suporte contratado)",
+    "Site institucional da GPS Rastreamento incluído",
+    "Custo zero da infraestrutura durante a homologação"
+  ],
+  "pricing": {
+    "investmentHeadline": "Plataforma de gestão administrativa — GPS Rastreamento",
+    "offerLabel": "Proposta comercial",
+    "fullPriceCaption": "Investimento total do projeto",
+    "fullPrice": "R$ 56.521,00",
+    "entryPrice": "30% na contratação: R$ 18.652,00",
+    "installments": "70% vinculados às entregas dos marcos M1–M4, conforme cronograma acordado",
+    "variableAmount": "A hospedagem em nuvem (AWS) não está inclusa no valor do projeto. O custo de infraestrutura é de responsabilidade do contratante — faixa indicativa de R$ 250 a R$ 750/mês após estabilização, conforme volume de dados, backups e instância escolhida.",
+    "specialCondition": "",
+    "paymentConditions": "Marcos e datas financeiras vinculados às entregas de cada milestone, formalizados na contratação. Modelos de contrato fornecidos ou validados pelo cliente; credenciais e homologação de serviços de assinatura digital ou envio de documentos, se adotados, no prazo acordado. Confirmação de escopo no workshop de kickoff; mudanças relevantes seguem como CR (Change Request).",
+    "paymentOptions": [
+      {
+        "label": "Pagamento por marcos",
+        "caption": "Sem acréscimo sobre o investimento",
+        "compareAtPrice": "R$ 62.173,00",
+        "price": "R$ 56.521,00",
+        "highlight": "Melhor custo total",
+        "details": [
+          "30% na assinatura/contratação: R$ 18.652,00",
+          "70% vinculados às entregas dos marcos M1–M4: R$ 43.521,00",
+          "Sem acréscimos sobre o valor total"
+        ]
+      },
+      {
+        "label": "12 prestações mensais",
+        "price": "R$ 74.608,00",
+        "highlight": "Mais flexibilidade",
+        "details": [
+          "11 parcelas de R$ 6.217,00",
+          "1 parcela de R$ 6.221,00 (ajuste da última parcela)"
+        ]
+      }
+    ],
+    "recurringPlan": {
+      "label": "Manutenção mensal — Horário comercial (8×5)",
+      "caption": "Plano opcional contratado após o término da garantia de 3 meses",
+      "monthlyPrice": "R$ 500,00/mês",
+      "highlight": "Contratado à parte",
+      "description": "Pacote mensal de desenvolvimento pontual e atendimento a incidentes do sistema entregue, em horário comercial.",
+      "includedItems": [
+        "Desenvolvimento pontual e pequenas melhorias",
+        "Atendimento a incidentes em horário comercial (8h–18h, dias úteis)",
+        "Demandas que ultrapassem o pacote ou estejam fora do escopo do plano seguem como CR (Change Request)"
+      ]
+    }
+  },
+  "timeline": {
+    "deliveryTime": "6 meses",
+    "startDate": "Início após assinatura do contrato e workshop de kickoff",
+    "milestones": [
+      {
+        "title": "M1 — Descoberta, UX e base financeira",
+        "date": "Meses 1–2",
+        "description": "Meses 1–2: kickoff e ritos de gestão (E7), ambientes iniciais (E6 parcial), autenticação e perfis (E5), início e evolução da gestão financeira — cadastros e contas a pagar/receber (E1)."
+      },
+      {
+        "title": "M2 — Financeiro, CRM e relatórios",
+        "date": "Meses 3–4",
+        "description": "Meses 3–4: conclusão da gestão financeira com dashboard, DRE e relatórios (E1), clientes e funil CRM (E2)."
+      },
+      {
+        "title": "M3 — Contratos e estoque",
+        "date": "Mês 5",
+        "description": "Mês 5: gestão de contratos e fluxo de assinatura/devolução (E3), rastreadores, chips e vinculação (E4)."
+      },
+      {
+        "title": "M4 — Endurecimento, QA e go-live",
+        "date": "Mês 6",
+        "description": "Mês 6: ajustes mobile/tablet (E5), produção, backup e LGPD (E6), testes, treinamento, documentação e entrada em operação (E7)."
+      }
+    ],
+    "observations": "Pagamento vinculado a marcos (70%) alinhado às entregas acima. Confirmação de escopo no workshop de kickoff; ajustes pequenos cabem na margem acordada, mudanças relevantes seguem como CR (Change Request)."
+  },
+  "guarantee": {
+    "guaranteeText": "3 meses de correção de defeitos do escopo entregue após o go-live, conforme detalhado no contrato.",
+    "extraHours": "Horas adicionais de desenvolvimento equivalentes ao período de atraso, sem custo",
+    "serviceLevel": "Comunicação transparente com gerente de projeto dedicado, rituais de planejamento, acompanhamento de marcos e checkpoints de aprovação a cada entrega."
+  }
+}
