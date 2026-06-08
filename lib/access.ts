@@ -17,6 +17,7 @@ export type ProtectedSlug =
   | "sistema-de-gestao-notarial-b"
   | "william-silva-imobiliaria"
   | "gps-rastreamento"
+  | "mentor-produtor-cafe"
   | "todos-orcamentos-vi";
 
 export const accessCredentials: Record<ProtectedSlug, string> = {
@@ -25,6 +26,7 @@ export const accessCredentials: Record<ProtectedSlug, string> = {
   "sistema-de-gestao-notarial-b": "FlxPlQJw6SnATuqwcYHE2JdR",
   "william-silva-imobiliaria": "u0qWkIEWRBpkovjVDDoZXYtz",
   "gps-rastreamento": "9p-_7_DU_emvF0CWnrGv19_m",
+  "mentor-produtor-cafe": "v5hr7FmsMNUUXakZSC2f1iu7",
   "todos-orcamentos-vi": "5EgyntnwsA7RzY-Jd6iNeBMD",
 };
 
@@ -65,6 +67,11 @@ export const proposalListings: ProposalListing[] = [
     slug: "gps-rastreamento",
     name: "Plataforma de gestão administrativa",
     description: "Finanças, CRM B2B, contratos e estoque de rastreadores/chips — GPS Rastreamento",
+  },
+  {
+    slug: "mentor-produtor-cafe",
+    name: "Plataforma integrada Mentor Produtor Café",
+    description: "Mentoria, gestão rural, rastreabilidade e marketplace de insumos — Jair Monte",
   },
 ];
 

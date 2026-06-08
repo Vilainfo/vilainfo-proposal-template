@@ -6,12 +6,14 @@ import { TestimonialsSection } from "@/sections/TestimonialsSection";
 import { AboutVilainfoSection } from "@/sections/AboutVilainfoSection";
 import { HubSolutionsSection } from "@/sections/HubSolutionsSection";
 import { ProjectScopeSection } from "@/sections/ProjectScopeSection";
+import { ModuleScopeSection } from "@/sections/ModuleScopeSection";
 import { ProjectDeliverablesSection } from "@/sections/ProjectDeliverablesSection";
 import { MetodoVilaSection } from "@/sections/MetodoVilaSection";
 import { ClosingCtaSection } from "@/sections/ClosingCtaSection";
 import { BonusInstitutionalSection } from "@/sections/BonusInstitutionalSection";
 import { IncludedItemsSection } from "@/sections/IncludedItemsSection";
 import { InvestmentSection } from "@/sections/InvestmentSection";
+import { ModulePricingSection } from "@/sections/ModulePricingSection";
 import { TimelineSection } from "@/sections/TimelineSection";
 import { GuaranteeSection } from "@/sections/GuaranteeSection";
 import { ProcessSection } from "@/sections/ProcessSection";
@@ -42,6 +44,11 @@ export function ProposalPage({ fixed, proposal }: ProposalPageProps) {
         <SlideFrame>
           <ProjectScopeSection proposal={proposal} />
         </SlideFrame>
+        {proposal.scopeModules && proposal.scopeModules.length > 0 ? (
+          <SlideFrame>
+            <ModuleScopeSection proposal={proposal} />
+          </SlideFrame>
+        ) : null}
         {proposal.projectDeliverables.length > 0 ? (
           <SlideFrame>
             <ProjectDeliverablesSection proposal={proposal} />
@@ -62,6 +69,11 @@ export function ProposalPage({ fixed, proposal }: ProposalPageProps) {
         <SlideFrame>
           <InvestmentSection proposal={proposal} />
         </SlideFrame>
+        {proposal.modulePricing && proposal.modulePricing.modules.length > 0 ? (
+          <SlideFrame>
+            <ModulePricingSection proposal={proposal} />
+          </SlideFrame>
+        ) : null}
         <SlideFrame>
           <TimelineSection proposal={proposal} />
         </SlideFrame>

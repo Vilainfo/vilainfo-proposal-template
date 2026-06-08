@@ -1,0 +1,234 @@
+{
+  "clientName": "Mentor Produtor Café — Jair Monte",
+  "projectName": "Plataforma integrada Mentor Produtor Café",
+  "projectTagline": "Mentoria, gestão rural, rastreabilidade de lotes e marketplace de insumos — escopo fechado por módulo",
+  "projectDescription": "Plataforma integrada para digitalizar e conectar quatro frentes do negócio cafeeiro: vendas e entrega de mentorias e cursos, gestão completa das propriedades dos produtores, rastreabilidade de lotes com QR code para compradores nacionais e internacionais, e marketplace de insumos entre produtores e fornecedores — com aplicativo móvel offline para coleta de dados em campo.",
+  "projectHeroImageUrl": null,
+  "previewKind": "system",
+  "previewMetrics": [
+    "8 meses de prazo (projeto completo)",
+    "4 módulos de negócio + base compartilhada",
+    "Milhares de lotes com QR code",
+    "App móvel com sincronização offline"
+  ],
+  "macroScope": [
+    "Base compartilhada (M0): identidade, papéis de acesso, aplicativo móvel offline, operação interna da equipe Mentor e infraestrutura com segurança e LGPD",
+    "Mentoria e conteúdo (M1): site, página de vendas, checkout, área de cursos/lives e gestão comercial da mentoria",
+    "Gestão de propriedade rural (M2): cadastro de talhões e equipamentos, ciclo produtivo completo, gestão financeira e coleta em campo",
+    "Rastreabilidade e portal comercial (M3): lotes com QR code, portal do comprador, certificação e interface PT/EN",
+    "Marketplace de fornecedores (M4): vitrine de insumos, chat de negociação, monetização configurável e registro logístico básico"
+  ],
+  "scopeModules": [
+    {
+      "id": "m0",
+      "code": "M0",
+      "title": "Plataforma compartilhada",
+      "description": "Base obrigatória para integração dos demais módulos — autenticação, papéis, app offline e operação interna.",
+      "scopeItems": [
+        "Identidade, acessos e papéis: cadastro de usuários, perfis (administrador Mentor, produtor/cliente mentoria, comprador de café, fornecedor, equipe interna) e permissões por módulo contratado",
+        "Aplicativo móvel com offline: registro em campo (atividades, insumos, fotos, horários), armazenamento local e sincronização quando houver conexão",
+        "Operação interna Mentor: agenda de atendimentos, registro de visitas (produtor, diagnóstico, recomendações) e controle de veículos e máquinas",
+        "Infraestrutura, segurança e LGPD: ambientes de homologação e produção, backup, criptografia e políticas de retenção validadas no kickoff",
+        "Gestão de projeto, QA transversal e treinamento inicial com Jair Monte como ponto de contato único"
+      ]
+    },
+    {
+      "id": "m1",
+      "code": "M1",
+      "title": "Mentoria, vendas e conteúdo educacional",
+      "description": "Substitui plataformas externas (ex.: Hotmart) por vitrine, vendas e entrega de conteúdo próprios.",
+      "scopeItems": [
+        "Site e página de vendas: vitrine institucional, páginas de produto (mentoria, cursos gravados, mini-curso com lives) e dimensionamento por porte do produtor",
+        "Checkout e pagamentos: fluxo automático (cadastro + pagamento + liberação) e fluxo manual (Pix ou transferência com confirmação administrativa)",
+        "Área de conteúdo: hospedagem de vídeos, lives, textos e imagens com acesso diferenciado admin/cliente",
+        "Gestão comercial da mentoria: controle de clientes, pagamentos, participação em lives e relatórios básicos de vendas/leads"
+      ]
+    },
+    {
+      "id": "m2",
+      "code": "M2",
+      "title": "Gestão de propriedade rural",
+      "description": "Controle completo da propriedade do produtor — do plantio à comercialização, com visão consolidada para o Mentor.",
+      "priority": true,
+      "scopeItems": [
+        "Cadastro e estrutura da propriedade: talhões, lavouras, variedades, equipamentos, máquinas, ferramentas e equipe",
+        "Ciclo produtivo completo: preparo/plantio, tratos culturais, manutenção, colheita e comercialização com indicadores e relatórios",
+        "Gestão financeira do produtor: fluxo de caixa e relatórios financeiros da propriedade",
+        "Coleta em campo (app): lançamentos offline vinculados ao talhão/lavoura, alimentando rastreabilidade futura"
+      ]
+    },
+    {
+      "id": "m3",
+      "code": "M3",
+      "title": "Rastreabilidade e portal comercial",
+      "description": "Rastreio de lotes com QR code e vitrine comercial para compradores — negociação conduzida pela exportadora.",
+      "priority": true,
+      "scopeItems": [
+        "Lotes e QR code: geração e gestão de lotes com histórico completo do ciclo produtivo até o consumidor",
+        "Portal do comprador: catálogo de lotes, classificação, ficha técnica e contato para negociação (compra fora da plataforma)",
+        "Certificação e narrativa comercial: exibição de selo café sem agrotóxicos e informações validadas pelo certificador",
+        "Internacionalização: interface do módulo comercial em português e inglês"
+      ]
+    },
+    {
+      "id": "m4",
+      "code": "M4",
+      "title": "Marketplace de fornecedores de insumos",
+      "description": "Vitrine que conecta produtores e fornecedores de insumos (ex.: adubo) com negociação registrada na plataforma.",
+      "scopeItems": [
+        "Cadastro de fornecedores e vitrine: catálogo/preços e publicação de necessidades pelo produtor",
+        "Negociação na plataforma: chat entre fornecedor e produtor, evitando desvio para contatos externos",
+        "Monetização configurável: suporte a anuidade do fornecedor e/ou comissão sobre vendas registradas",
+        "Logística básica: registro de etapas de negociação e alinhamento logístico (sem operação física de entrega pela Vilainfo)"
+      ]
+    }
+  ],
+  "projectGoals": [
+    "Digitalizar e integrar mentorias, gestão de propriedades, rastreabilidade de lotes e marketplace de insumos em uma única plataforma de escopo fechado.",
+    "Ganhar controle operacional e escalar a comercialização de exportação, com rastreio do que foi recomendado em campo versus o executado pelo produtor.",
+    "Permitir contratação modular — priorizando gestão rural e rastreabilidade — sem dependência de cobrança por hora."
+  ],
+  "projectDeliverables": [],
+  "projectDifferentials": [
+    "Escopo alinhado à reunião comercial de 01/06/2026 — quatro módulos mapeados com Jair Monte como decisor único.",
+    "Preços segregados por módulo, conforme solicitado — contrate apenas o que precisa, com M0 como base de integração.",
+    "Aplicativo móvel offline para coleta de dados em campo, com sincronização automática.",
+    "Garantia de 3 meses pós go-live por módulo entregue e plano de manutenção opcional disponível na sequência."
+  ],
+  "features": [],
+  "includedItems": [
+    "Desenvolvimento sob demanda conforme módulos contratados",
+    "Workshop de kickoff e validação de escopo definitivo",
+    "Treinamento inicial em sessões acordadas",
+    "Garantia de 3 meses pós go-live por módulo entregue"
+  ],
+  "supportType": "Correção de defeitos do escopo entregue durante o período de garantia de 3 meses pós go-live, em horário comercial (8×5).",
+  "warranty": "Garantia de 3 meses pós go-live — correção de defeitos do escopo entregue, por módulo contratado, conforme detalhado no contrato.",
+  "bonusItems": [
+    "+5 horas adicionais de desenvolvimento mensal no pós go-live (somam ao plano de suporte contratado)",
+    "4 visitas técnicas in loco no estado do Espírito Santo",
+    "Custo zero da infraestrutura durante a homologação"
+  ],
+  "pricing": {
+    "investmentHeadline": "Plataforma integrada Mentor Produtor Café — projeto completo (M0+M1+M2+M3+M4)",
+    "offerLabel": "Proposta comercial",
+    "fullPriceCaption": "Investimento total do projeto completo",
+    "fullPrice": "R$ 161.328,00",
+    "entryPrice": "30% na contratação: R$ 48.398,40",
+    "installments": "70% vinculados às entregas dos marcos, conforme módulos contratados",
+    "variableAmount": "A hospedagem em nuvem (AWS) não está inclusa no valor do projeto. O custo de infraestrutura é de responsabilidade do contratante — faixa indicativa de R$ 800 a R$ 2.500/mês após estabilização, conforme módulos ativos e volume de mídia.",
+    "specialCondition": "",
+    "paymentConditions": "Pagamento vinculado a marcos (70%) proporcional aos módulos contratados. M0 é pré-requisito técnico para integração. Detalhamento fino do módulo de propriedade rural e regras de monetização do marketplace definidos no workshop de kickoff. Mudanças relevantes no escopo seguem como CR (Change Request).",
+    "paymentOptions": [
+      {
+        "label": "Pagamento por marcos",
+        "caption": "Sem acréscimo sobre o investimento",
+        "compareAtPrice": "R$ 177.460,80",
+        "price": "R$ 161.328,00",
+        "highlight": "Melhor custo total",
+        "details": [
+          "30% na assinatura/contratação: R$ 48.398,40",
+          "70% vinculados às entregas dos marcos M1–M4: R$ 112.929,60",
+          "Sem acréscimos sobre o valor total"
+        ]
+      },
+      {
+        "label": "12 prestações mensais",
+        "price": "R$ 177.460,80",
+        "highlight": "Mais flexibilidade",
+        "details": [
+          "12 parcelas de R$ 14.788,40"
+        ]
+      }
+    ],
+    "recurringPlan": {
+      "label": "Manutenção mensal — Horário comercial (8×5)",
+      "caption": "Plano opcional contratado após o término da garantia de 3 meses",
+      "monthlyPrice": "R$ 500,00/mês",
+      "highlight": "Contratado à parte",
+      "description": "Pacote mensal de desenvolvimento pontual e atendimento a incidentes do sistema entregue, em horário comercial.",
+      "includedItems": [
+        "Desenvolvimento pontual e pequenas melhorias",
+        "Atendimento a incidentes em horário comercial (8h–18h, dias úteis)",
+        "Demandas que ultrapassem o pacote ou estejam fora do escopo do plano seguem como CR (Change Request)"
+      ]
+    }
+  },
+  "modulePricing": {
+    "title": "Investimento segregado por módulo",
+    "description": "Valores à vista (melhor custo) e a prazo (+10%) para cada módulo. O M0 é obrigatório para integração técnica dos demais.",
+    "modules": [
+      {
+        "moduleId": "m0",
+        "code": "M0",
+        "title": "Plataforma compartilhada",
+        "deliveryTime": "1,5 mês",
+        "cashPrice": "R$ 28.755,00",
+        "installmentPrice": "R$ 31.630,50"
+      },
+      {
+        "moduleId": "m1",
+        "code": "M1",
+        "title": "Mentoria e conteúdo",
+        "deliveryTime": "1,5 mês",
+        "cashPrice": "R$ 30.120,00",
+        "installmentPrice": "R$ 33.132,00"
+      },
+      {
+        "moduleId": "m2",
+        "code": "M2",
+        "title": "Gestão de propriedade rural",
+        "deliveryTime": "2,5 meses",
+        "cashPrice": "R$ 55.100,00",
+        "installmentPrice": "R$ 60.610,00",
+        "note": "Módulo prioritário"
+      },
+      {
+        "moduleId": "m3",
+        "code": "M3",
+        "title": "Rastreabilidade e comercial",
+        "deliveryTime": "1,5 mês",
+        "cashPrice": "R$ 32.123,00",
+        "installmentPrice": "R$ 35.335,30",
+        "note": "Módulo prioritário"
+      },
+      {
+        "moduleId": "m4",
+        "code": "M4",
+        "title": "Marketplace de fornecedores",
+        "deliveryTime": "1 mês",
+        "cashPrice": "R$ 15.230,00",
+        "installmentPrice": "R$ 16.753,00"
+      }
+    ],
+    "footnote": "Pacote prioritário recomendado (M0 + M2 + M3): à vista R$ 115.978,00 · a prazo R$ 127.575,80. Contratar módulos isolados sem M0 não é suportado tecnicamente."
+  },
+  "timeline": {
+    "deliveryTime": "8 meses",
+    "startDate": "Início após assinatura do contrato e workshop de kickoff",
+    "milestones": [
+      {
+        "title": "M1 — Descoberta, base e kickoff",
+        "description": "Meses 1–2: workshops de detalhamento, identidade e papéis de acesso (E0.1), ambientes iniciais (E0.4 parcial) e ritos de gestão (E0.5) — módulo M0 (1,5 mês)."
+      },
+      {
+        "title": "M2 — Gestão rural e app de campo",
+        "description": "Meses 2–5: aplicativo móvel offline (E0.2), gestão de propriedade rural (E2.1–E2.4) e agenda de visitas (E0.3 parcial) — módulo M2 (2,5 meses)."
+      },
+      {
+        "title": "M3 — Rastreabilidade e portal comercial",
+        "description": "Meses 5–7: lotes com QR code, portal do comprador, certificação e internacionalização (E3.1–E3.4), integrando dados de E2 — módulo M3 (1,5 mês)."
+      },
+      {
+        "title": "M4 — Mentoria, marketplace e go-live",
+        "description": "Meses 7–8: mentoria e conteúdo (E1.1–E1.4), marketplace de fornecedores (E4.1–E4.4), conclusão da operação interna (E0.3), produção, QA e treinamento (E0.4–E0.5) — módulos M1 e M4 (2,5 meses)."
+      }
+    ],
+    "observations": "Prazo total de 8 meses — soma dos prazos por módulo (M0: 1,5 + M1: 1,5 + M2: 2,5 + M3: 1,5 + M4: 1). Pacote prioritário M0+M2+M3: 5,5 meses, com M1 e M4 contratáveis em fase posterior. Pagamento vinculado a marcos (70%) proporcional aos módulos escolhidos."
+  },
+  "guarantee": {
+    "guaranteeText": "3 meses de correção de defeitos do escopo entregue após o go-live, por módulo contratado, conforme detalhado no contrato.",
+    "extraHours": "Horas adicionais de desenvolvimento equivalentes ao período de atraso, sem custo",
+    "serviceLevel": "Comunicação transparente com gerente de projeto dedicado, rituais de planejamento, acompanhamento de marcos e checkpoints de aprovação a cada entrega — com Jair Monte como ponto de contato único."
+  }
+}
