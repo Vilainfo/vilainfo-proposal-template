@@ -48,8 +48,8 @@
     "investmentHeadline": "Plataforma integrada Mentor Produtor Café — projeto completo (M0+M1+M2+M3+M4)",
     "offerLabel": "Proposta comercial",
     "fullPriceCaption": "Investimento total do projeto completo",
-    "fullPrice": "R$ 161.328,00",
-    "entryPrice": "30% na contratação: R$ 48.398,40",
+    "fullPrice": "R$ 132.573,00",
+    "entryPrice": "30% na contratação: R$ 39.771,90",
     "installments": "70% vinculados às entregas dos marcos, conforme módulos contratados",
     "variableAmount": "A hospedagem em nuvem (AWS) não está inclusa no valor do projeto. O custo de infraestrutura é de responsabilidade do contratante — faixa indicativa de R$ 800 a R$ 2.500/mês após estabilização, conforme módulos ativos e volume de mídia.",
     "specialCondition": "",
@@ -59,20 +59,21 @@
         "label": "Pagamento por marcos",
         "caption": "Sem acréscimo sobre o investimento",
         "compareAtPrice": "R$ 177.460,80",
-        "price": "R$ 161.328,00",
+        "price": "R$ 132.573,00",
         "highlight": "Melhor custo total",
         "details": [
-          "30% na assinatura/contratação: R$ 48.398,40",
-          "70% vinculados às entregas dos marcos M1–M4: R$ 112.929,60",
+          "30% na assinatura/contratação: R$ 39.771,90",
+          "70% vinculados às entregas dos marcos M1–M4: R$ 92.801,10",
+          "Módulo M0 (plataforma compartilhada) incluso sem custo",
           "Sem acréscimos sobre o valor total"
         ]
       },
       {
         "label": "12 prestações mensais",
-        "price": "R$ 177.460,80",
+        "price": "R$ 145.830,30",
         "highlight": "Mais flexibilidade",
         "details": [
-          "12 parcelas de R$ 14.788,40"
+          "12 parcelas de R$ 12.152,53"
         ]
       }
     ],
@@ -91,15 +92,18 @@
   },
   "modulePricing": {
     "title": "Investimento segregado por módulo",
-    "description": "Valores à vista (melhor custo) e a prazo (+10%) para cada módulo. O M0 é obrigatório para integração técnica dos demais.",
+    "description": "Valores à vista (melhor custo) e a prazo (+10%) para cada módulo. O M0 é obrigatório para integração técnica dos demais e está incluso sem custo nesta proposta.",
     "modules": [
       {
         "moduleId": "m0",
         "code": "M0",
         "title": "Plataforma compartilhada",
         "deliveryTime": "1,5 mês",
-        "cashPrice": "R$ 28.755,00",
-        "installmentPrice": "R$ 31.630,50"
+        "originalCashPrice": "R$ 28.755,00",
+        "originalInstallmentPrice": "R$ 31.630,50",
+        "cashPrice": "R$ 0,00",
+        "installmentPrice": "R$ 0,00",
+        "note": "Incluso na proposta"
       },
       {
         "moduleId": "m1",
@@ -136,7 +140,7 @@
         "installmentPrice": "R$ 16.753,00"
       }
     ],
-    "footnote": "Pacote prioritário recomendado (M0 + M2 + M3): à vista R$ 115.978,00 · a prazo R$ 127.575,80. Contratar módulos isolados sem M0 não é suportado tecnicamente."
+    "footnote": "Pacote prioritário recomendado (M0 + M2 + M3): à vista R$ 87.223,00 · a prazo R$ 95.945,30 (M0 incluso). Contratar módulos isolados sem M0 não é suportado tecnicamente."
   },
   "timeline": {
     "deliveryTime": "8 meses",

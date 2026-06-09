@@ -73,11 +73,33 @@ export function ModulePricingSection({ proposal }: Props) {
                       <td className="px-5 py-5 align-top text-sm text-[var(--muted)] sm:px-6">
                         {mod.deliveryTime ?? "—"}
                       </td>
-                      <td className="px-5 py-5 align-top font-display text-base font-semibold text-cyan-50 sm:px-6 sm:text-lg">
-                        {mod.cashPrice}
+                      <td className="px-5 py-5 align-top sm:px-6">
+                        {mod.originalCashPrice ? (
+                          <p className="font-display text-sm font-medium text-[var(--muted)] line-through decoration-[var(--muted-strong)]/70 sm:text-base">
+                            {mod.originalCashPrice}
+                          </p>
+                        ) : null}
+                        <p
+                          className={`font-display text-base font-semibold sm:text-lg ${
+                            mod.originalCashPrice ? "mt-0.5 text-cyan-50" : "text-cyan-50"
+                          }`}
+                        >
+                          {mod.cashPrice}
+                        </p>
                       </td>
-                      <td className="px-5 py-5 align-top font-display text-base font-semibold text-[var(--foreground)] sm:px-6 sm:text-lg">
-                        {mod.installmentPrice}
+                      <td className="px-5 py-5 align-top sm:px-6">
+                        {mod.originalInstallmentPrice ? (
+                          <p className="font-display text-sm font-medium text-[var(--muted)] line-through decoration-[var(--muted-strong)]/70 sm:text-base">
+                            {mod.originalInstallmentPrice}
+                          </p>
+                        ) : null}
+                        <p
+                          className={`font-display text-base font-semibold text-[var(--foreground)] sm:text-lg ${
+                            mod.originalInstallmentPrice ? "mt-0.5" : ""
+                          }`}
+                        >
+                          {mod.installmentPrice}
+                        </p>
                       </td>
                     </tr>
                   ))}

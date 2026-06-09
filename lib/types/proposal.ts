@@ -107,6 +107,10 @@ export type ProposalModulePrice = {
   cashPrice: string;
   /** Valor total a prazo (parcelamento do módulo) */
   installmentPrice: string;
+  /** Preço original à vista, exibido tachado quando o módulo é cortesia */
+  originalCashPrice?: string;
+  /** Preço original a prazo, exibido tachado quando o módulo é cortesia */
+  originalInstallmentPrice?: string;
   /** Prazo estimado de entrega do módulo (ex.: "1,5 mês") */
   deliveryTime?: string;
   /** Valor de referência opcional (lista) */
