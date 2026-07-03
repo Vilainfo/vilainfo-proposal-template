@@ -1,0 +1,132 @@
+{
+  "clientName": "Sidney Manthey — Psicólogo clínico",
+  "projectName": "Plataforma de gestão para psicólogos clínicos",
+  "projectTagline": "Agenda recorrente, financeiro integrado, prontuário com IA e chatbot de WhatsApp — nichado para psicologia clínica",
+  "projectDescription": "MVP em plataforma web responsiva para substituir aplicativos genéricos que não atendem às particularidades da psicologia clínica. O coração do sistema é a agenda com recorrência semanal integrada de ponta a ponta ao módulo financeiro e ao controle de pacotes por número de sessões, completado por chatbot de WhatsApp bidirecional, prontuário com apoio de IA e camada de inteligência com insights de agenda, honorários e finanças.",
+  "projectHeroImageUrl": null,
+  "previewKind": "system",
+  "previewMetrics": [
+    "8 meses de prazo",
+    "8 entregáveis (E1–E8)",
+    "Arquitetura multiusuário com planos comercializáveis",
+    "Integrações: WhatsApp, IA e links de pagamento"
+  ],
+  "macroScope": [
+    "Base da plataforma — cadastro de psicólogos, autenticação, arquitetura multiusuário, esteira de planos (inicial sem IA; profissional/premium com IA) e web responsiva única para uso mobile e desktop",
+    "Infraestrutura, segurança e LGPD — ambientes de homologação e produção, backup, criptografia e políticas de retenção alinhadas à guarda legal de prontuários por 5 anos",
+    "Agenda com recorrência semanal — agendamento recorrente, exceções, pacientes quinzenais, cancelamento, remarcação e liberação de horário para outro paciente",
+    "Chatbot de WhatsApp bidirecional — lembretes e confirmação de consultas, reagendamento assistido e recuperação de horários liberados",
+    "Gestão financeira integrada — contas a pagar/receber, DRE, calendário financeiro visual, pacotes por número de sessões, integração agenda↔financeiro e links de pagamento com parcelamento",
+    "Prontuário com apoio de IA — geração assistida com anonimização e aval obrigatório do profissional, alerta de qualidade em 48h e importação de prontuários legados",
+    "Inteligência e insights — otimização de agenda, alerta de honorários abaixo da tabela e insights financeiros automatizados",
+    "Relatórios mensais, portabilidade de dados e interface web responsiva completa para uso diário no celular e gestão no desktop"
+  ],
+  "projectGoals": [
+    "Resolver a dor operacional do consultório — agenda recorrente confiável, financeiro consistente com a agenda, prontuário em dia e redução de horários perdidos por cancelamentos em cima da hora.",
+    "Lançar um produto de mercado nichado para psicólogos clínicos — software feito para a profissão, com planos e inteligência que concorrentes genéricos não entregam.",
+    "Ir além do controle manual digitalizado — gerar valor automatizado com insights de otimização de agenda, alertas de honorários e resumos financeiros que orientem a decisão do profissional."
+  ],
+  "projectDeliverables": [],
+  "projectDifferentials": [
+    "Escopo alinhado à reunião comercial de 26/06/2026 — necessidades mapeadas com Sidney Manthey, com material de produto já desenhado por aba.",
+    "Metodologia spec-driven — escopo detalhado convertido em especificações formais antes da implementação, acelerando entrega e reduzindo retrabalho.",
+    "Web responsiva única em vez de app nativo — mesma base de código para mobile e desktop, eliminando manutenção duplicada.",
+    "Integração agenda↔financeiro como diferencial central — cancelamento ou remarcação reflete automaticamente no financeiro e no status do pacote.",
+    "Garantia de 3 meses pós go-live e plano de manutenção opcional disponível na sequência."
+  ],
+  "features": [],
+  "includedItems": [
+    "Plataforma web responsiva conforme escopo acordado (E1–E8)",
+    "Workshop de kickoff — conversão do escopo por aba em especificações formais",
+    "Treinamento em sessões acordadas",
+    "Garantia de 3 meses pós go-live"
+  ],
+  "supportType": "Correção de defeitos do escopo entregue durante o período de garantia de 3 meses pós go-live, em horário comercial (8×5).",
+  "warranty": "Garantia de 3 meses pós go-live — correção de defeitos do escopo entregue, conforme detalhado no contrato.",
+  "bonusItems": [
+    "+5 horas adicionais de desenvolvimento mensal no pós go-live (somam ao plano de suporte contratado)",
+    "Landing page do produto incluída",
+    "Custo zero da infraestrutura durante a homologação"
+  ],
+  "pricing": {
+    "investmentHeadline": "Plataforma de gestão para psicólogos clínicos — Sidney Manthey",
+    "offerLabel": "Proposta comercial",
+    "fullPriceCaption": "Investimento total do projeto",
+    "fullPrice": "R$ 65.760,00",
+    "entryPrice": "30% na contratação: R$ 19.728,00",
+    "installments": "70% vinculados às entregas dos marcos, conforme cronograma acordado",
+    "variableAmount": "A hospedagem em nuvem (AWS) não está inclusa no valor do projeto. O custo de infraestrutura é de responsabilidade do contratante — faixa indicativa de R$ 500 a R$ 1.500/mês após estabilização, conforme volume de usuários e armazenamento. Tokens de IA, API oficial de WhatsApp e taxas de gateway dos links de pagamento são custos operacionais de terceiros, variáveis conforme uso.",
+    "specialCondition": "",
+    "paymentConditions": "Marcos e datas financeiras vinculados às entregas de cada milestone, formalizados na contratação. Credenciais e homologação de APIs (WhatsApp, pagamento) fornecidas ou contratadas pelo cliente no prazo acordado. Mudanças relevantes no escopo seguem como CR (Change Request).",
+    "paymentOptions": [
+      {
+        "label": "Pagamento por marcos",
+        "caption": "Sem acréscimo sobre o investimento",
+        "compareAtPrice": "R$ 78.912,00",
+        "price": "R$ 65.760,00",
+        "highlight": "Melhor custo total",
+        "details": [
+          "30% na assinatura/contratação: R$ 19.728,00",
+          "70% vinculados às entregas dos marcos M1–M6: R$ 46.032,00",
+          "Sem acréscimos sobre o valor total"
+        ]
+      },
+      {
+        "label": "12 prestações mensais",
+        "price": "R$ 78.912,00",
+        "highlight": "Mais flexibilidade",
+        "details": [
+          "12 parcelas de R$ 6.576,00"
+        ]
+      }
+    ],
+    "recurringPlan": {
+      "label": "Manutenção mensal — Horário comercial (8×5)",
+      "caption": "Plano opcional contratado após o término da garantia de 3 meses",
+      "monthlyPrice": "R$ 500,00/mês",
+      "highlight": "Contratado à parte",
+      "description": "Pacote mensal de desenvolvimento pontual e atendimento a incidentes do sistema entregue, em horário comercial.",
+      "includedItems": [
+        "Desenvolvimento pontual e pequenas melhorias",
+        "Atendimento a incidentes em horário comercial (8h–18h, dias úteis)",
+        "Demandas que ultrapassem o pacote ou estejam fora do escopo do plano seguem como CR (Change Request)"
+      ]
+    }
+  },
+  "timeline": {
+    "deliveryTime": "8 meses",
+    "startDate": "Início após assinatura do contrato e workshop de kickoff",
+    "milestones": [
+      {
+        "title": "M1 — Specs, descoberta e base",
+        "description": "Meses 1–2: conversão do escopo do cliente em specs formais; identidade, acessos, planos, ambientes de homologação/produção e design system responsivo (E1)."
+      },
+      {
+        "title": "M2 — Agenda recorrente",
+        "description": "Meses 2–3: agenda com recorrência semanal, cancelamento, remarcação e liberação de horário; fundação da integração com o financeiro (E2); layout mobile da agenda (E8 parcial)."
+      },
+      {
+        "title": "M3 — Financeiro integrado e pacotes",
+        "description": "Meses 3–5: contas a pagar/receber, DRE, calendário financeiro, pacotes por sessões, integração agenda↔financeiro e links de pagamento (E4); telas financeiras desktop (E8 parcial)."
+      },
+      {
+        "title": "M4 — Chatbot de WhatsApp",
+        "description": "Meses 5–6: lembretes, confirmação, reagendamento assistido e recuperação de horários, conectado à agenda (E3)."
+      },
+      {
+        "title": "M5 — Prontuário com IA",
+        "description": "Meses 6–7: geração assistida com aval obrigatório, alerta de qualidade em 48h e importação de prontuários legados (E5)."
+      },
+      {
+        "title": "M6 — Inteligência, relatórios e go-live",
+        "description": "Meses 7–8: insights de agenda, honorários e finanças, relatórios mensais, portabilidade de dados, conclusão da interface responsiva, QA final, treinamento e publicação (E6, E7, E8)."
+      }
+    ],
+    "observations": "Pagamento vinculado a marcos (70%) alinhado às entregas acima. Confirmação de escopo no workshop de kickoff; ajustes pequenos cabem na margem acordada, mudanças relevantes seguem como CR (Change Request)."
+  },
+  "guarantee": {
+    "guaranteeText": "3 meses de correção de defeitos do escopo entregue após o go-live, conforme detalhado no contrato.",
+    "extraHours": "Horas adicionais de desenvolvimento equivalentes ao período de atraso, sem custo",
+    "serviceLevel": "Comunicação transparente com gerente de projeto dedicado, rituais de planejamento, acompanhamento de marcos e checkpoints de aprovação a cada entrega."
+  }
+}

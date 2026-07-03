@@ -18,6 +18,7 @@ export type ProtectedSlug =
   | "william-silva-imobiliaria"
   | "gps-rastreamento"
   | "mentor-produtor-cafe"
+  | "sidney-plataforma-psicologo"
   | "todos-orcamentos-vi";
 
 export const accessCredentials: Record<ProtectedSlug, string> = {
@@ -27,6 +28,7 @@ export const accessCredentials: Record<ProtectedSlug, string> = {
   "william-silva-imobiliaria": "u0qWkIEWRBpkovjVDDoZXYtz",
   "gps-rastreamento": "9p-_7_DU_emvF0CWnrGv19_m",
   "mentor-produtor-cafe": "v5hr7FmsMNUUXakZSC2f1iu7",
+  "sidney-plataforma-psicologo": "4n4bYNDTrk3saAvbLxS72bun",
   "todos-orcamentos-vi": "5EgyntnwsA7RzY-Jd6iNeBMD",
 };
 
@@ -72,6 +74,11 @@ export const proposalListings: ProposalListing[] = [
     slug: "mentor-produtor-cafe",
     name: "Plataforma integrada Mentor Produtor Café",
     description: "Mentoria, gestão rural, rastreabilidade e marketplace de insumos — Jair Monte",
+  },
+  {
+    slug: "sidney-plataforma-psicologo",
+    name: "Plataforma de gestão para psicólogos clínicos",
+    description: "Agenda recorrente, financeiro integrado, prontuário com IA e chatbot de WhatsApp — Sidney Manthey",
   },
 ];
 
