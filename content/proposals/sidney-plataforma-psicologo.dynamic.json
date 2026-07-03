@@ -52,8 +52,8 @@
     "investmentHeadline": "Plataforma de gestão para psicólogos clínicos — Sidney Manthey",
     "offerLabel": "Proposta comercial",
     "fullPriceCaption": "Investimento total do projeto",
-    "fullPrice": "R$ 65.760,00",
-    "entryPrice": "30% na contratação: R$ 19.728,00",
+    "fullPrice": "R$ 55.760,00",
+    "entryPrice": "30% na contratação: R$ 16.728,00",
     "installments": "70% vinculados às entregas dos marcos, conforme cronograma acordado",
     "variableAmount": "A hospedagem em nuvem (AWS) não está inclusa no valor do projeto. O custo de infraestrutura é de responsabilidade do contratante — faixa indicativa de R$ 500 a R$ 1.500/mês após estabilização, conforme volume de usuários e armazenamento. Tokens de IA, API oficial de WhatsApp e taxas de gateway dos links de pagamento são custos operacionais de terceiros, variáveis conforme uso.",
     "specialCondition": "",
@@ -62,21 +62,21 @@
       {
         "label": "Pagamento por marcos",
         "caption": "Sem acréscimo sobre o investimento",
-        "compareAtPrice": "R$ 78.912,00",
-        "price": "R$ 65.760,00",
+        "compareAtPrice": "R$ 66.912,00",
+        "price": "R$ 55.760,00",
         "highlight": "Melhor custo total",
         "details": [
-          "30% na assinatura/contratação: R$ 19.728,00",
-          "70% vinculados às entregas dos marcos M1–M6: R$ 46.032,00",
+          "30% na assinatura/contratação: R$ 16.728,00",
+          "70% vinculados às entregas dos marcos M1–M6: R$ 39.032,00",
           "Sem acréscimos sobre o valor total"
         ]
       },
       {
         "label": "12 prestações mensais",
-        "price": "R$ 78.912,00",
+        "price": "R$ 66.912,00",
         "highlight": "Mais flexibilidade",
         "details": [
-          "12 parcelas de R$ 6.576,00"
+          "12 parcelas de R$ 5.576,00"
         ]
       }
     ],
