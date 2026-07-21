@@ -177,31 +177,43 @@ export function InvestmentSection({ proposal }: Props) {
                 </div>
               </FadeIn>
 
+              {pricing.specialCondition ? (
+                <FadeIn delay={0.08}>
+                  <GlassPanel className="border-amber-400/25 bg-amber-400/[0.06] p-6 sm:p-8">
+                    <p className="text-sm font-medium leading-snug text-amber-50/95">
+                      {pricing.specialCondition}
+                    </p>
+                  </GlassPanel>
+                </FadeIn>
+              ) : null}
+
               {pricing.recurringPlan ? (
                 <FadeIn delay={0.1}>
                   <RecurringPlanCard plan={pricing.recurringPlan} />
                 </FadeIn>
               ) : null}
 
-              <FadeIn delay={0.12}>
-                <GlassPanel className="p-6 sm:p-8">
-                  <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--muted-strong)]">
-                    Condições de pagamento
-                  </p>
-                  <p className="mt-3 text-base leading-relaxed text-[var(--muted)]">
-                    {pricing.paymentConditions}
-                  </p>
-                  <div className="mt-6 rounded-xl border border-white/10 bg-white/[0.03] p-4">
-                    <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[var(--muted-strong)]">
-                      Formalização
+              {pricing.paymentConditions ? (
+                <FadeIn delay={0.12}>
+                  <GlassPanel className="p-6 sm:p-8">
+                    <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--muted-strong)]">
+                      Condições de pagamento
                     </p>
-                    <p className="mt-2 text-sm leading-relaxed text-[var(--muted)]">
-                      Valores e condições resumem a proposta; detalhes ficam no contrato e nos
-                      documentos de cobrança.
+                    <p className="mt-3 text-base leading-relaxed text-[var(--muted)]">
+                      {pricing.paymentConditions}
                     </p>
-                  </div>
-                </GlassPanel>
-              </FadeIn>
+                    <div className="mt-6 rounded-xl border border-white/10 bg-white/[0.03] p-4">
+                      <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[var(--muted-strong)]">
+                        Formalização
+                      </p>
+                      <p className="mt-2 text-sm leading-relaxed text-[var(--muted)]">
+                        Valores e condições resumem a proposta; detalhes ficam no contrato e nos
+                        documentos de cobrança.
+                      </p>
+                    </div>
+                  </GlassPanel>
+                </FadeIn>
+              ) : null}
             </div>
           )
         ) : (
@@ -258,25 +270,27 @@ export function InvestmentSection({ proposal }: Props) {
               </FadeIn>
             ) : null}
 
-            <FadeIn delay={0.1}>
-              <GlassPanel className="p-6 sm:p-8">
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--muted-strong)]">
-                  Condições de pagamento
-                </p>
-                <p className="mt-3 text-base leading-relaxed text-[var(--muted)]">
-                  {pricing.paymentConditions}
-                </p>
-                <div className="mt-6 rounded-xl border border-white/10 bg-white/[0.03] p-4">
-                  <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[var(--muted-strong)]">
-                    Formalização
+            {pricing.paymentConditions ? (
+              <FadeIn delay={0.1}>
+                <GlassPanel className="p-6 sm:p-8">
+                  <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--muted-strong)]">
+                    Condições de pagamento
                   </p>
-                  <p className="mt-2 text-sm leading-relaxed text-[var(--muted)]">
-                    Valores e condições resumem a proposta; detalhes ficam no contrato e nos
-                    documentos de cobrança.
+                  <p className="mt-3 text-base leading-relaxed text-[var(--muted)]">
+                    {pricing.paymentConditions}
                   </p>
-                </div>
-              </GlassPanel>
-            </FadeIn>
+                  <div className="mt-6 rounded-xl border border-white/10 bg-white/[0.03] p-4">
+                    <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[var(--muted-strong)]">
+                      Formalização
+                    </p>
+                    <p className="mt-2 text-sm leading-relaxed text-[var(--muted)]">
+                      Valores e condições resumem a proposta; detalhes ficam no contrato e nos
+                      documentos de cobrança.
+                    </p>
+                  </div>
+                </GlassPanel>
+              </FadeIn>
+            ) : null}
           </div>
         )}
       </Container>

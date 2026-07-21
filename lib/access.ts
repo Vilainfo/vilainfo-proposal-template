@@ -19,6 +19,7 @@ export type ProtectedSlug =
   | "gps-rastreamento"
   | "mentor-produtor-cafe"
   | "sidney-plataforma-psicologo"
+  | "galatas"
   | "todos-orcamentos-vi";
 
 export const accessCredentials: Record<ProtectedSlug, string> = {
@@ -29,6 +30,7 @@ export const accessCredentials: Record<ProtectedSlug, string> = {
   "gps-rastreamento": "9p-_7_DU_emvF0CWnrGv19_m",
   "mentor-produtor-cafe": "v5hr7FmsMNUUXakZSC2f1iu7",
   "sidney-plataforma-psicologo": "4n4bYNDTrk3saAvbLxS72bun",
+  galatas: "JheXvP1rCQfx7YUfWJbyoF8Z",
   "todos-orcamentos-vi": "5EgyntnwsA7RzY-Jd6iNeBMD",
 };
 
@@ -79,6 +81,11 @@ export const proposalListings: ProposalListing[] = [
     slug: "sidney-plataforma-psicologo",
     name: "Plataforma de gestão para psicólogos clínicos",
     description: "Agenda recorrente, financeiro integrado, prontuário com IA e chatbot de WhatsApp — Sidney Manthey",
+  },
+  {
+    slug: "galatas",
+    name: "Presença digital integrada Gálatas",
+    description: "Identidade, PDFs, redes sociais e site institucional — Gálatas Serviços Marítimos e Terrestres",
   },
 ];
 

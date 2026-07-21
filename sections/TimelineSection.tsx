@@ -23,7 +23,7 @@ export function TimelineSection({ proposal }: Props) {
         <div className="grid gap-10 lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1.05fr)]">
           <FadeIn>
             <GlassPanel className="space-y-8 p-8 sm:p-10">
-              <div className="grid gap-6 sm:grid-cols-2">
+              <div className="grid gap-6">
                 <div className="rounded-2xl border border-white/10 bg-black/35 p-6">
                   <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted-strong)]">
                     Prazo de entrega

@@ -1,0 +1,113 @@
+{
+  "clientName": "Gálatas Serviços Marítimos e Terrestres",
+  "projectName": "Presença digital integrada Gálatas",
+  "projectTagline": "Refresh de identidade, materiais comerciais, redes sociais e site institucional",
+  "projectDescription": "Pacote enxuto para reorganizar a presença digital da Gálatas — empresa com 29 anos de atuação nos portos de Vitória e Vila Velha. Inclui identidade visual marítima e terrestre, PDFs comerciais, configuração de LinkedIn, Instagram e Facebook com templates reutilizáveis, site institucional responsivo e gestão integral do fluxo.",
+  "projectHeroImageUrl": null,
+  "previewKind": "site",
+  "macroScope": [
+    "Identidade visual — refresh com logo, paleta, tipografia e mini-guia para uso digital (marítimo + terrestre)",
+    "PDF de portfólio de serviços — apoio em navios, peação/desapeação, limpeza de estruturas, alvenaria e demais serviços já divulgados",
+    "PDF institucional — história, diferenciais, atuação nos portos, parceiros e contato",
+    "Redes sociais — setup inicial de LinkedIn, Instagram e Facebook (bio, capas, destaques) e templates editáveis para a equipe continuar publicando",
+    "Site institucional — home, serviços, quem somos/parceiros e contato, responsivo, com WhatsApp, formulário e SEO básico",
+    "Gestão integrada — único ponto de contato, cronograma unificado e entrega ponta a ponta em 17 dias úteis"
+  ],
+  "projectGoals": [
+    "Alinhar visualmente site, PDFs e redes para transmitir serviços marítimos e terrestres com clareza e credibilidade.",
+    "Padronizar a apresentação comercial e facilitar prospecção de clientes e parceiros.",
+    "Empoderar a equipe interna com templates para sustentar as redes sem depender de agência a cada postagem."
+  ],
+  "projectDeliverables": [],
+  "projectDifferentials": [
+    "Escopo pensado para PME — refresh objetivo, sem consultoria de marca de longa duração.",
+    "Cronograma claro em três fases — 5 dias para logos, 7 dias para demais peças e 5 dias para o site.",
+    "Gestão única Vilainfo — designer parceiro nos materiais visuais e nosso time no site, com um só fluxo para o cliente.",
+    "Garantia de 3 meses pós go-live e plano de manutenção opcional disponível na sequência."
+  ],
+  "features": [],
+  "includedItems": [
+    "Pacote base conforme escopo acordado (identidade, PDFs, redes, site e gestão)",
+    "Workshop de kickoff e alinhamento de conteúdos",
+    "Publicação do site e handover técnico"
+  ],
+  "supportType": "Correção de defeitos do escopo entregue durante o período de garantia de 3 meses pós go-live, em horário comercial (8×5).",
+  "warranty": "Garantia de 3 meses pós go-live — correção de defeitos do site, templates digitais e arquivos de marca entregues, conforme contrato.",
+  "bonusItems": [
+    "10 horas de desenvolvimento para outros fins após a entrega do pacote base",
+    "Estruturação do Google Meu Negócio"
+  ],
+  "pricing": {
+    "investmentHeadline": "Presença digital integrada — Gálatas",
+    "offerLabel": "Proposta comercial — valor fechado",
+    "fullPriceCaption": "Investimento total do pacote base",
+    "fullPrice": "R$ 8.000,00",
+    "entryPrice": "30% na assinatura: R$ 2.400,00",
+    "installments": "70% vinculados aos marcos M1, M2 e M3: R$ 5.600,00",
+    "variableAmount": "A hospedagem em nuvem não está inclusa no valor do projeto. O custo de infraestrutura é de responsabilidade do contratante — faixa indicativa de R$ 50 a R$ 150/mês após estabilização, conforme tráfego e armazenamento de mídia.",
+    "specialCondition": "Pacote adicional de sessões fotográficas: R$ 800,00 por sessão de 4 horas (sábados). Inclui roteiro, direção de arte e seleção orientada das imagens para site, PDFs e redes. Contratação à parte do pacote base, quantas sessões forem necessárias. EPI, transporte e autorizações de acesso portuário são de responsabilidade do cliente.",
+    "paymentConditions": "",
+    "paymentOptions": [
+      {
+        "label": "Pagamento por marcos",
+        "caption": "Sem acréscimo sobre o investimento",
+        "price": "R$ 8.000,00",
+        "highlight": "Melhor custo total",
+        "details": [
+          "30% na assinatura/contratação: R$ 2.400,00",
+          "R$ 2.240,00 na entrega do marco M1 (identidade visual / logos)",
+          "R$ 2.240,00 na entrega do marco M2 (PDFs, redes e demais peças)",
+          "R$ 1.120,00 na entrega do marco M3 (site e go-live)",
+          "Sem acréscimos sobre o valor total"
+        ]
+      },
+      {
+        "label": "12 prestações mensais",
+        "price": "R$ 9.600,00",
+        "highlight": "Mais flexibilidade",
+        "details": [
+          "12 parcelas de R$ 800,00"
+        ]
+      }
+    ],
+    "recurringPlan": {
+      "label": "Manutenção mensal — Horário comercial (8×5)",
+      "caption": "",
+      "monthlyPrice": "R$ 390,00/mês",
+      "highlight": "Contratado à parte",
+      "description": "Pacote mensal para evolução da presença digital e atendimento a incidentes do site e materiais entregues, em horário comercial.",
+      "includedItems": [
+        "Elaboração de uma nova peça de marketing (banner, panfletos, etc.)",
+        "Desenvolvimento pontual e pequenas melhorias",
+        "Atendimento a incidentes em horário comercial (8h–18h, dias úteis)"
+      ]
+    }
+  },
+  "timeline": {
+    "deliveryTime": "17 dias úteis",
+    "startDate": "Início após assinatura do contrato e workshop de kickoff",
+    "milestones": [
+      {
+        "title": "M1 — Identidade visual (logos)",
+        "date": "5 dias",
+        "description": "Entrega do kit visual essencial: logo, paleta, tipografia e mini-guia de aplicação digital."
+      },
+      {
+        "title": "M2 — Demais peças de marketing",
+        "date": "7 dias",
+        "description": "PDFs de portfólio e institucional, setup de LinkedIn, Instagram e Facebook e templates editáveis para a equipe."
+      },
+      {
+        "title": "M3 — Site institucional",
+        "date": "5 dias",
+        "description": "Desenvolvimento e publicação do site institucional, testes e go-live."
+      }
+    ],
+    "observations": "Sessões fotográficas do pacote adicional, se contratadas, agenda-se em sábado, recomendamos que sejam feitas no início para incluir no site e PDFs."
+  },
+  "guarantee": {
+    "guaranteeText": "3 meses de correção de defeitos do escopo entregue após o go-live — site, templates digitais e arquivos de marca do pacote base, conforme contrato.",
+    "extraHours": "Priorização de correções durante o período de garantia, conforme acordado no contrato",
+    "serviceLevel": "Comunicação direta com ponto único de contato e checkpoints de aprovação em cada marco."
+  }
+}
