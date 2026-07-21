@@ -26,3 +26,10 @@ body {
   background-color: rgba(34, 211, 238, 0.35);
   color: #020617;
 }
+
+/* Next.js dev tools / feedback button — oculto em previews comerciais */
+nextjs-portal,
+[data-nextjs-dev-tools-button],
+[data-nextjs-toast] {
+  display: none !important;
+}
