@@ -20,6 +20,7 @@ export type ProtectedSlug =
   | "mentor-produtor-cafe"
   | "sidney-plataforma-psicologo"
   | "galatas"
+  | "gestao-migratoria-libertad"
   | "todos-orcamentos-vi";
 
 export const accessCredentials: Record<ProtectedSlug, string> = {
@@ -31,6 +32,7 @@ export const accessCredentials: Record<ProtectedSlug, string> = {
   "mentor-produtor-cafe": "v5hr7FmsMNUUXakZSC2f1iu7",
   "sidney-plataforma-psicologo": "4n4bYNDTrk3saAvbLxS72bun",
   galatas: "JheXvP1rCQfx7YUfWJbyoF8Z",
+  "gestao-migratoria-libertad": "hqXWeWdaCSI6mlhv9Iaf_0CP",
   "todos-orcamentos-vi": "5EgyntnwsA7RzY-Jd6iNeBMD",
 };
 
@@ -86,6 +88,11 @@ export const proposalListings: ProposalListing[] = [
     slug: "galatas",
     name: "Presença digital integrada Gálatas",
     description: "Identidade, PDFs, redes sociais e site institucional — Gálatas Serviços Marítimos e Terrestres",
+  },
+  {
+    slug: "gestao-migratoria-libertad",
+    name: "Gestão migratória Libertad",
+    description: "Documentos via WhatsApp no checklist da família, IA, leads e financeiro — Plano Cliente Fundador",
   },
 ];
 

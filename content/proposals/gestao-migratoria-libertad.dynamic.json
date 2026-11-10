@@ -1,0 +1,136 @@
+{
+  "clientName": "Libertad — Lucas e Sophia",
+  "projectName": "Gestão migratória Libertad",
+  "projectTagline": "O cliente manda tudo pelo WhatsApp; o documento cai sozinho no checklist de cada pessoa da família",
+  "projectDescription": "Plataforma de gestão para assessoria migratória, moldada primeiro para a operação da Libertad. O cliente continua enviando documentos pelo WhatsApp, a plataforma identifica o tipo de documento e a pessoa da família, faz uma pré-análise com IA e coloca tudo no checklist do processo. A equipe aprova ou pede revisão, e a resposta volta pelo próprio WhatsApp. Leads, conversas, etapas, contratos e financeiro ficam no mesmo lugar, com dados criptografados em servidores no Brasil.",
+  "projectHeroImageUrl": null,
+  "previewKind": "system",
+  "previewMetrics": [
+    "Produção em até 3 semanas",
+    "Documentos via WhatsApp direto no checklist",
+    "Dados criptografados na AWS São Paulo",
+    "Pré-análise de documentos com IA"
+  ],
+  "macroScope": [
+    "Entrada de documentos pelo WhatsApp — o cliente envia foto ou PDF como já faz hoje, e o arquivo é vinculado à família, à pessoa e ao item certo do checklist",
+    "Checklist documental por pessoa da família — o que chegou, o que falta, o que está vencido e o que já foi conferido, com prazos por processo",
+    "Conferência assistida por IA — pré-análise de legibilidade, nome, apostila e validade dos antecedentes, com aprovação ou pedido de revisão (texto ou áudio) que volta pelo WhatsApp",
+    "Triagem de leads e conversas — fila por categoria, resumo automático do que o lead já contou (família, plano, urgência) e priorização de quem precisa de atendimento agora",
+    "Funil e processos — Kanban com etapas configuráveis, conversão de lead em processo e linha do tempo de cada família",
+    "Financeiro e contratos — parcelas por moeda, previsto, recebido e vencido, com cobrança pelo WhatsApp",
+    "Segurança e LGPD — WhatsApp oficial da Meta, login com dois fatores e permissões por pessoa da equipe, arquivos criptografados, backup e servidores no Brasil"
+  ],
+  "projectGoals": [
+    "Tirar a organização documental da cabeça da equipe e do histórico do WhatsApp, eliminando erros de conferência e documentos esquecidos.",
+    "Dar conta de picos de demanda — como os milhares de leads de uma semana — sem perder o atendimento humanizado que é a marca da Libertad.",
+    "Proteger dados sensíveis dos clientes (documentos pessoais, antecedentes criminais) com um padrão de segurança à altura da responsabilidade."
+  ],
+  "projectDeliverables": [],
+  "projectDifferentials": [
+    "Protótipo já funcionando — a proposta parte de um sistema que a Libertad já viu rodar, não de uma promessa.",
+    "Plataforma moldada pela operação da Libertad — o checklist, as etapas e as regras definidas por vocês viram o padrão do produto.",
+    "Sem mudar o hábito do cliente — o WhatsApp continua sendo o canal; a organização acontece por trás.",
+    "Segurança como requisito, não como extra — infraestrutura AWS no Brasil, criptografia e controle de acesso desde o primeiro dia.",
+    "Vilainfo atuando em sistemas críticos desde a década de 1990, com evolução contínua do produto incluída na mensalidade."
+  ],
+  "features": [
+    {
+      "id": "whatsapp-checklist",
+      "title": "WhatsApp direto no checklist",
+      "description": "Foto ou PDF com a legenda “certidão da Laura” entra sozinho no item certo, da pessoa certa, e o cliente recebe a confirmação."
+    },
+    {
+      "id": "pre-analise-ia",
+      "title": "Pré-análise de documentos",
+      "description": "A IA aponta problemas de legibilidade, nome divergente, apostila ausente ou antecedente fora da validade antes da conferência humana."
+    },
+    {
+      "id": "revisao-audio",
+      "title": "Pedido de revisão por texto ou áudio",
+      "description": "A equipe grava um áudio no navegador e ele chega ao cliente pelo WhatsApp, sem sair da tela de conferência."
+    },
+    {
+      "id": "resumo-leads",
+      "title": "Resumo e prioridade de leads",
+      "description": "Cada conversa ganha um resumo do que o lead já contou e uma indicação de prioridade, para a equipe atender primeiro quem está pronto."
+    },
+    {
+      "id": "kanban",
+      "title": "Kanban de processos",
+      "description": "Etapas configuráveis, marcos fixos de entrada, contratação e conclusão, e visão do andamento de cada família."
+    },
+    {
+      "id": "financeiro-moeda",
+      "title": "Financeiro por moeda",
+      "description": "Parcelas em real, guarani ou dólar, com vencidos destacados e cobrança enviada pelo WhatsApp."
+    },
+    {
+      "id": "assistente",
+      "title": "Assistente da operação",
+      "description": "Pergunte “quem está com documento vencido?” ou “o que falta para a família Silva?” e receba a resposta na hora."
+    }
+  ],
+  "includedItems": [
+    "Uso da plataforma por toda a equipe da Libertad",
+    "Infraestrutura em nuvem (AWS São Paulo), backup e criptografia",
+    "WhatsApp oficial da Meta para avisos e conversas com clientes",
+    "Inteligência artificial na pré-análise de documentos, nos resumos e no assistente",
+    "Configuração inicial: checklist de documentos, etapas, planos e equipe",
+    "Importação dos clientes e processos em andamento",
+    "Treinamento da equipe",
+    "Evoluções contínuas do produto, sem custo adicional"
+  ],
+  "supportType": "Suporte em horário comercial (8×5) pelo WhatsApp e e-mail, com correção de defeitos, atualizações de segurança e manutenção das integrações durante todo o contrato.",
+  "warranty": "Correção de defeitos da plataforma durante toda a vigência do contrato, sem custo adicional.",
+  "bonusItems": [],
+  "pricing": {
+    "investmentHeadline": "Plano Cliente Fundador — Gestão migratória Libertad",
+    "offerLabel": "Plano Cliente Fundador",
+    "fullPriceCaption": "Mensalidade fixa nos primeiros 18 meses",
+    "fullPrice": "R$ 1.000,00/mês",
+    "entryPrice": "Implantação isenta",
+    "installments": "R$ 1.000,00/mês fixos por 18 meses",
+    "variableAmount": "Infraestrutura em nuvem, WhatsApp oficial e inteligência artificial estão inclusos na mensalidade. Campanhas de marketing disparadas pelo WhatsApp, quando houver, são repassadas ao custo cobrado pela Meta.",
+    "specialCondition": "Como cliente fundador, a Libertad molda a plataforma e ajuda a levá-la a outras assessorias: a cada assessoria indicada que assinar, a Libertad ganha 1 mês de mensalidade grátis.",
+    "paymentConditions": "Contrato com vigência mínima de 12 meses. Primeira mensalidade somente após a plataforma entrar em produção. Reajuste anual pelo IPCA. Os dados pertencem à Libertad, com contrato de tratamento de dados conforme a LGPD e exportação completa a qualquer momento. Em caso de descontinuação da plataforma, aviso com 90 dias de antecedência e entrega de todos os dados. Customizações exclusivas da operação da Libertad, que não façam parte do produto, são orçadas à parte com desconto de cliente fundador.",
+    "recurringPlan": {
+      "label": "A partir do 19º mês",
+      "monthlyPrice": "Até R$ 1.500,00/mês",
+      "caption": "Desconto de cliente fundador vitalício",
+      "highlight": "Preço protegido",
+      "description": "Depois dos 18 meses, a Libertad passa a pagar a tabela vigente da plataforma com 40% de desconto, enquanto for cliente, com teto de R$ 1.500,00/mês (corrigido pelo IPCA).",
+      "includedItems": [
+        "40% de desconto sobre a tabela, para sempre",
+        "Teto de R$ 1.500,00/mês no plano equivalente",
+        "Mesmo pacote: infraestrutura, WhatsApp oficial, IA, suporte e evoluções"
+      ]
+    }
+  },
+  "timeline": {
+    "deliveryTime": "Até 3 semanas",
+    "startDate": "Início após assinatura do contrato e reunião de kickoff",
+    "milestones": [
+      {
+        "title": "M1 — Ambiente seguro e WhatsApp oficial",
+        "date": "Semana 1",
+        "description": "Infraestrutura na AWS São Paulo, login com dois fatores e permissões da equipe; início da verificação da Libertad na Meta para o WhatsApp oficial."
+      },
+      {
+        "title": "M2 — Operação da Libertad configurada",
+        "date": "Semana 2",
+        "description": "Checklist de documentos validado com o Lucas, etapas do Kanban, planos e equipe; importação dos clientes e processos em andamento."
+      },
+      {
+        "title": "M3 — Go-live e treinamento",
+        "date": "Semana 3",
+        "description": "Treinamento da equipe, conexão do número de atendimento à plataforma e acompanhamento próximo nos primeiros dias de uso."
+      }
+    ],
+    "observations": "O prazo do WhatsApp oficial depende da aprovação da Meta, que pode levar alguns dias; por isso ela começa na primeira semana. Depois do go-live, conversas de feedback a cada 15 dias orientam as próximas evoluções."
+  },
+  "guarantee": {
+    "guaranteeText": "A mensalidade só começa a ser cobrada depois que a plataforma estiver em produção na operação da Libertad.",
+    "extraHours": "Nenhuma cobrança enquanto a plataforma não estiver em produção",
+    "serviceLevel": "Contato direto com quem desenvolve a plataforma, conversas de feedback quinzenais e prioridade da Libertad nas próximas evoluções."
+  }
+}
