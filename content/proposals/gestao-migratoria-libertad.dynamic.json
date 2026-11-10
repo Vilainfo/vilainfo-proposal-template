@@ -92,7 +92,7 @@
     "installments": "",
     "variableAmount": "",
     "specialCondition": "Como cliente fundador, a Libertad molda a plataforma e ajuda a levá-la a outras assessorias: a cada assessoria indicada que assinar, a Libertad ganha 1 mês adicional de acesso.",
-    "paymentConditions": "Os 12 meses de acesso contam a partir da entrada da plataforma em produção, não da assinatura. Pagamento à vista na assinatura ou em 10 parcelas mensais, a primeira na assinatura. Infraestrutura, WhatsApp oficial e inteligência artificial estão inclusos; campanhas de marketing disparadas pelo WhatsApp, quando houver, são repassadas ao custo cobrado pela Meta. Os dados pertencem à Libertad, com contrato de tratamento de dados conforme a LGPD e exportação completa a qualquer momento. Se a plataforma for descontinuada durante o período contratado, a Libertad recebe a devolução proporcional dos meses não utilizados, com aviso de 90 dias e entrega de todos os dados. Customizações exclusivas da operação da Libertad, que não façam parte do produto, são orçadas à parte com desconto de cliente fundador.",
+    "paymentConditions": "Os 12 meses de acesso contam a partir da entrada da plataforma em produção, não da assinatura. Pagamento à vista na assinatura ou em 10 parcelas mensais, a primeira na assinatura. A renovação do 2º ano, de 12x de R$ 490,00, pode ser reajustada se os provedores de inteligência artificial e da API oficial do WhatsApp (Meta) aumentarem seus preços de forma significativa; os valores a partir do 3º ano são definidos na renovação. Infraestrutura, WhatsApp oficial e inteligência artificial estão inclusos; campanhas de marketing disparadas pelo WhatsApp, quando houver, são repassadas ao custo cobrado pela Meta. Os dados pertencem à Libertad, com contrato de tratamento de dados conforme a LGPD e exportação completa a qualquer momento. Se a plataforma for descontinuada durante o período contratado, a Libertad recebe a devolução proporcional dos meses não utilizados, com aviso de 90 dias e entrega de todos os dados. Customizações exclusivas da operação da Libertad, que não façam parte do produto, são orçadas à parte com desconto de cliente fundador.",
     "paymentOptions": [
       {
         "label": "À vista",
@@ -118,11 +118,11 @@
       }
     ],
     "recurringPlan": {
-      "label": "Renovação anual — a partir do 13º mês",
-      "monthlyPrice": "12x de R$ 490,00",
-      "caption": "Total de R$ 5.880,00 por ano, com reajuste anual pelo IPCA",
+      "label": "Renovação — 2º ano",
+      "monthlyPrice": "12x de R$ 490,00*",
+      "caption": "Total de R$ 5.880,00 no segundo ano de uso",
       "highlight": "Preço de fundador",
-      "description": "Depois do primeiro ano, a Libertad renova o acesso por um valor anual reduzido, que mantém a plataforma funcionando, segura e atualizada.",
+      "description": "Depois do primeiro ano, a Libertad renova o acesso por um valor reduzido, que mantém a plataforma funcionando, segura e atualizada. *Valor válido para o 2º ano. Ele depende dos preços dos nossos provedores de inteligência artificial e da API oficial do WhatsApp (Meta): se esses custos subirem de forma significativa, o valor poderá ser reajustado. Os valores a partir do 3º ano serão definidos na renovação.",
       "includedItems": [
         "Infraestrutura, backup e criptografia",
         "WhatsApp oficial nas mensagens de rotina e inteligência artificial",
