@@ -119,8 +119,8 @@
     ],
     "recurringPlan": {
       "label": "Renovação anual — a partir do 13º mês",
-      "monthlyPrice": "R$ 5.880,00/ano",
-      "caption": "12 parcelas de R$ 490,00, com reajuste anual pelo IPCA",
+      "monthlyPrice": "12x de R$ 490,00",
+      "caption": "Total de R$ 5.880,00 por ano, com reajuste anual pelo IPCA",
       "highlight": "Preço de fundador",
       "description": "Depois do primeiro ano, a Libertad renova o acesso por um valor anual reduzido, que mantém a plataforma funcionando, segura e atualizada.",
       "includedItems": [
