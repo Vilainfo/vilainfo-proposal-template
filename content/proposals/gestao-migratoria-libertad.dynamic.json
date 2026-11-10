@@ -31,7 +31,7 @@
     "Plataforma moldada pela operação da Libertad — o checklist, as etapas e as regras definidas por vocês viram o padrão do produto.",
     "Sem mudar o hábito do cliente — o WhatsApp continua sendo o canal; a organização acontece por trás.",
     "Segurança como requisito, não como extra — infraestrutura AWS no Brasil, criptografia e controle de acesso desde o primeiro dia.",
-    "Vilainfo atuando em sistemas críticos desde a década de 1990, com evolução contínua do produto incluída na mensalidade."
+    "Vilainfo atuando em sistemas críticos desde a década de 1990, com evolução contínua do produto incluída no plano."
   ],
   "features": [
     {
@@ -71,7 +71,7 @@
     }
   ],
   "includedItems": [
-    "Uso da plataforma por toda a equipe da Libertad",
+    "12 meses de uso da plataforma por toda a equipe da Libertad",
     "Infraestrutura em nuvem (AWS São Paulo), backup e criptografia",
     "WhatsApp oficial da Meta para avisos e conversas com clientes",
     "Inteligência artificial na pré-análise de documentos, nos resumos e no assistente",
@@ -80,29 +80,54 @@
     "Treinamento da equipe",
     "Evoluções contínuas do produto, sem custo adicional"
   ],
-  "supportType": "Suporte em horário comercial (8×5) pelo WhatsApp e e-mail, com correção de defeitos, atualizações de segurança e manutenção das integrações durante todo o contrato.",
-  "warranty": "Correção de defeitos da plataforma durante toda a vigência do contrato, sem custo adicional.",
+  "supportType": "Suporte em horário comercial (8×5) pelo WhatsApp e e-mail, com correção de defeitos, atualizações de segurança e manutenção das integrações durante todo o período contratado.",
+  "warranty": "Correção de defeitos da plataforma durante todo o período contratado, sem custo adicional.",
   "bonusItems": [],
   "pricing": {
-    "investmentHeadline": "Plano Cliente Fundador — Gestão migratória Libertad",
-    "offerLabel": "Plano Cliente Fundador",
-    "fullPriceCaption": "Mensalidade fixa nos primeiros 18 meses",
-    "fullPrice": "R$ 1.000,00/mês",
-    "entryPrice": "Implantação isenta",
-    "installments": "R$ 1.000,00/mês fixos por 18 meses",
-    "variableAmount": "Infraestrutura em nuvem, WhatsApp oficial e inteligência artificial estão inclusos na mensalidade. Campanhas de marketing disparadas pelo WhatsApp, quando houver, são repassadas ao custo cobrado pela Meta.",
-    "specialCondition": "Como cliente fundador, a Libertad molda a plataforma e ajuda a levá-la a outras assessorias: a cada assessoria indicada que assinar, a Libertad ganha 1 mês de mensalidade grátis.",
-    "paymentConditions": "Contrato com vigência mínima de 12 meses. Primeira mensalidade somente após a plataforma entrar em produção. Reajuste anual pelo IPCA. Os dados pertencem à Libertad, com contrato de tratamento de dados conforme a LGPD e exportação completa a qualquer momento. Em caso de descontinuação da plataforma, aviso com 90 dias de antecedência e entrega de todos os dados. Customizações exclusivas da operação da Libertad, que não façam parte do produto, são orçadas à parte com desconto de cliente fundador.",
+    "investmentHeadline": "Plano Cliente Fundador — 12 meses de acesso completo à Gestão migratória Libertad",
+    "offerLabel": "Plano Cliente Fundador — 12 meses",
+    "fullPriceCaption": "Investimento pelos 12 meses de acesso completo",
+    "fullPrice": "R$ 12.000,00",
+    "entryPrice": "",
+    "installments": "",
+    "variableAmount": "",
+    "specialCondition": "Como cliente fundador, a Libertad molda a plataforma e ajuda a levá-la a outras assessorias: a cada assessoria indicada que assinar, a Libertad ganha 1 mês adicional de acesso.",
+    "paymentConditions": "Os 12 meses de acesso contam a partir da entrada da plataforma em produção, não da assinatura. Pagamento à vista na assinatura ou em 10 parcelas mensais, a primeira na assinatura. Infraestrutura, WhatsApp oficial e inteligência artificial estão inclusos; campanhas de marketing disparadas pelo WhatsApp, quando houver, são repassadas ao custo cobrado pela Meta. Os dados pertencem à Libertad, com contrato de tratamento de dados conforme a LGPD e exportação completa a qualquer momento. Se a plataforma for descontinuada durante o período contratado, a Libertad recebe a devolução proporcional dos meses não utilizados, com aviso de 90 dias e entrega de todos os dados. Customizações exclusivas da operação da Libertad, que não façam parte do produto, são orçadas à parte com desconto de cliente fundador.",
+    "paymentOptions": [
+      {
+        "label": "À vista",
+        "caption": "Pagamento único na assinatura",
+        "price": "R$ 12.000,00",
+        "highlight": "Melhor custo total",
+        "details": [
+          "12 meses de acesso completo",
+          "Implantação, configuração e treinamento inclusos",
+          "Economia de R$ 3.000,00 em relação ao parcelado"
+        ]
+      },
+      {
+        "label": "10 parcelas",
+        "caption": "Primeira parcela na assinatura",
+        "price": "R$ 15.000,00",
+        "highlight": "Mais flexibilidade",
+        "details": [
+          "10 parcelas de R$ 1.500,00",
+          "12 meses de acesso completo",
+          "Implantação, configuração e treinamento inclusos"
+        ]
+      }
+    ],
     "recurringPlan": {
-      "label": "A partir do 19º mês",
-      "monthlyPrice": "Até R$ 1.500,00/mês",
-      "caption": "Desconto de cliente fundador vitalício",
-      "highlight": "Preço protegido",
-      "description": "Depois dos 18 meses, a Libertad passa a pagar a tabela vigente da plataforma com 40% de desconto, enquanto for cliente, com teto de R$ 1.500,00/mês (corrigido pelo IPCA).",
+      "label": "Renovação anual — a partir do 13º mês",
+      "monthlyPrice": "R$ 5.880,00/ano",
+      "caption": "12 parcelas de R$ 490,00, com reajuste anual pelo IPCA",
+      "highlight": "Preço de fundador",
+      "description": "Depois do primeiro ano, a Libertad renova o acesso por um valor anual reduzido, que mantém a plataforma funcionando, segura e atualizada.",
       "includedItems": [
-        "40% de desconto sobre a tabela, para sempre",
-        "Teto de R$ 1.500,00/mês no plano equivalente",
-        "Mesmo pacote: infraestrutura, WhatsApp oficial, IA, suporte e evoluções"
+        "Infraestrutura, backup e criptografia",
+        "WhatsApp oficial nas mensagens de rotina e inteligência artificial",
+        "Suporte, correção de defeitos e atualizações de segurança",
+        "Evoluções do produto, sem custo adicional"
       ]
     }
   },
@@ -129,8 +154,8 @@
     "observations": "O prazo do WhatsApp oficial depende da aprovação da Meta, que pode levar alguns dias; por isso ela começa na primeira semana. Depois do go-live, conversas de feedback a cada 15 dias orientam as próximas evoluções."
   },
   "guarantee": {
-    "guaranteeText": "A mensalidade só começa a ser cobrada depois que a plataforma estiver em produção na operação da Libertad.",
-    "extraHours": "Nenhuma cobrança enquanto a plataforma não estiver em produção",
+    "guaranteeText": "Os 12 meses de acesso começam a contar somente quando a plataforma estiver em produção na operação da Libertad.",
+    "extraHours": "Se a entrada em produção passar das 3 semanas previstas, o período de acesso é estendido pelo mesmo tempo",
     "serviceLevel": "Contato direto com quem desenvolve a plataforma, conversas de feedback quinzenais e prioridade da Libertad nas próximas evoluções."
   }
 }
